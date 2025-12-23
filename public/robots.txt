@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://shiputzim-pro.co.il/sitemap.xml
+Sitemap: https://zappy-site-43441431-31fb-4630-b061.onrender.com/sitemap.xml
