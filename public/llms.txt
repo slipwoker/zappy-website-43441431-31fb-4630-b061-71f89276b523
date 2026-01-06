@@ -1,64 +1,54 @@
-# שיפוצים 2000 — Generative Engine Optimization Map
-
-> A בנייה ושיפוצים business.
+# Business — Generative Engine Optimization Map
 
 ---
 
 ## Pages
 
 ### בית
-https://zappy-site-43441431-31fb-4630-b061.onrender.com
+https://shiputzim-pro.co.il
 שיפוצים 2000 - מומחים בשיפוץ חדרי אמבטיה ושיפוצים מקיפים למגזר פרטי, עסקי ומוסדי. קבלן שיפוצים אמין בישראל עם ניסיון של שנים.
 
 ### שירותים
-https://zappy-site-43441431-31fb-4630-b061.onrender.com/services
+https://shiputzim-pro.co.il/services
 גלה את מגוון השירותים המקצועיים שלנו - שיפוץ חדרי אמבטיה, מטבחים, שיפוצים כלליים ועוד. קבלן שיפוצים אמין בישראל עם ניסיון מוכח.
 
 ### אודות
-https://zappy-site-43441431-31fb-4630-b061.onrender.com/about
+https://shiputzim-pro.co.il/about
 הכירו את שיפוצים 2000 - קבלן שיפוצים אמין בישראל עם למעלה מ-20 שנות ניסיון בשיפוץ חדרי אמבטיה ושיפוצים מקצועיים למגזר הפרטי, העסקי והמוסדי.
 
 ### צור קשר
-https://zappy-site-43441431-31fb-4630-b061.onrender.com/contact
+https://shiputzim-pro.co.il/contact
 צור קשר עם שיפוצים 2000 - קבלן שיפוצים אמין בישראל. קבל הצעת מחיר חינם לשיפוץ חדרי אמבטיה ושיפוצים מקצועיים. נשמח לעמוד לשירותך.
 
 ### הפרויקטים שלנו - גלריית עבודות | שיפוצים 2000
-https://zappy-site-43441431-31fb-4630-b061.onrender.com/gallery
+https://shiputzim-pro.co.il/gallery
 
 ### עבודות שביצענו | שיפוצים 2000 - תיק עבודות ופרויקטים
-https://zappy-site-43441431-31fb-4630-b061.onrender.com/our-work
+https://shiputzim-pro.co.il/our-work
 צפו בתיק העבודות של שיפוצים 2000. מגוון פרויקטים של שיפוץ חדרי אמבטיה, שיפוצים כלליים לדירות ובתים, עבודות גמר ועיצוב פנים. קבלן שיפוצים אמין ומקצועי.
 
 ## Legal & Policy
 
 ### Privacy Policy
-https://zappy-site-43441431-31fb-4630-b061.onrender.com/privacy
+https://shiputzim-pro.co.il/privacy
 Information about how user data is collected, stored, and protected.
 
 ### Terms & Conditions
-https://zappy-site-43441431-31fb-4630-b061.onrender.com/terms
+https://shiputzim-pro.co.il/terms
 Legal terms describing service usage, rights, and policies.
 
 ### Accessibility Statement
-https://zappy-site-43441431-31fb-4630-b061.onrender.com/accessibility
+https://shiputzim-pro.co.il/accessibility
 Information about WCAG compliance and accessibility features.
 
 ---
 
 # Business Context (for LLM understanding)
 
-## About שיפוצים 2000
-שיפוצים 2000 is a business in the בנייה ושיפוצים industry.
-
-## Target Audience
-מגזר פרטי, עסקי ומוסדי
-
-## Industry
-בנייה ושיפוצים
-
+## About Business
 ---
 
 # Additional Resources
 
-- **Sitemap**: https://zappy-site-43441431-31fb-4630-b061.onrender.com/sitemap.xml
-- **Robots.txt**: https://zappy-site-43441431-31fb-4630-b061.onrender.com/robots.txt
+- **Sitemap**: https://shiputzim-pro.co.il/sitemap.xml
+- **Robots.txt**: https://shiputzim-pro.co.il/robots.txt
