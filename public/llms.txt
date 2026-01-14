@@ -1,4 +1,6 @@
-# Business — Generative Engine Optimization Map
+# שיפוצים 2000 — Generative Engine Optimization Map
+
+> A בנייה ושיפוצים business.
 
 ---
 
@@ -45,7 +47,15 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About Business
+## About שיפוצים 2000
+שיפוצים 2000 is a business in the בנייה ושיפוצים industry.
+
+## Target Audience
+מגזר פרטי, עסקי ומוסדי
+
+## Industry
+בנייה ושיפוצים
+
 ---
 
 # Additional Resources
