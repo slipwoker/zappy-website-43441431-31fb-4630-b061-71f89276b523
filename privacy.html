@@ -345,6 +345,242 @@
 
 
 
+
+
+<!-- Mobile Menu Toggle Script -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const mobileToggle = document.getElementById('mobileToggle');
+  const navMenu = document.getElementById('navMenu');
+  const hamburgerIcon = mobileToggle.querySelector('.hamburger-icon');
+  const closeIcon = mobileToggle.querySelector('.close-icon');
+  
+  mobileToggle.addEventListener('click', function() {
+    navMenu.classList.toggle('active');
+    
+    // Toggle icons
+    if (navMenu.classList.contains('active')) {
+      hamburgerIcon.style.display = 'none';
+      closeIcon.style.display = 'block';
+    } else {
+      hamburgerIcon.style.display = 'block';
+      closeIcon.style.display = 'none';
+    }
+  });
+  
+  // Close menu when clicking outside
+  document.addEventListener('click', function(event) {
+    if (!navMenu.contains(event.target) && !mobileToggle.contains(event.target)) {
+      navMenu.classList.remove('active');
+      hamburgerIcon.style.display = 'block';
+      closeIcon.style.display = 'none';
+    }
+  });
+  
+  // Close menu when clicking on a link
+  navMenu.querySelectorAll('a').forEach(function(link) {
+    link.addEventListener('click', function() {
+      navMenu.classList.remove('active');
+      hamburgerIcon.style.display = 'block';
+      closeIcon.style.display = 'none';
+    });
+  });
+});
+</script>
+
+<!-- Accessibility Widget Keyboard Shortcut (ALT+A) - Desktop Only -->
+<script>
+(function() {
+  // Only enable on desktop (screen width > 768px)
+  if (window.innerWidth <= 768) {
+    return; // Exit on mobile
+  }
+  
+  let altPressed = false;
+  
+  document.addEventListener('keydown', function(e) {
+    // Check if ALT key is pressed
+    if (e.key === 'Alt') {
+      altPressed = true;
+    }
+    
+    // Check if ALT+A is pressed (desktop only)
+    if (altPressed && (e.key === 'a' || e.key === 'A')) {
+      e.preventDefault();
+      
+      // Toggle visibility class on body
+      document.body.classList.toggle('accessibility-widget-visible');
+      
+      // If making visible, also open the menu
+      if (document.body.classList.contains('accessibility-widget-visible')) {
+        // Wait a bit for the button to be visible, then click it
+        setTimeout(function() {
+          const accButton = document.getElementById('mic-access-tool-general-button') || 
+                          document.querySelector('.mic-access-tool-general-button') ||
+                          document.querySelector('._access-icon');
+          if (accButton && typeof accButton.click === 'function') {
+            accButton.click();
+          }
+        }, 100);
+      }
+    }
+  });
+  
+  document.addEventListener('keyup', function(e) {
+    if (e.key === 'Alt') {
+      altPressed = false;
+    }
+  });
+  
+  // Reset on window blur (when switching windows/tabs)
+  window.addEventListener('blur', function() {
+    altPressed = false;
+  });
+})();
+</script>
+
+<!-- Cookie Consent Configuration -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Get current language from HTML lang attribute
+  const currentLang = document.documentElement.lang || 'he';
+  
+  // Cookie consent translations
+  const translations = {
+    he: {
+      title: 'אנחנו משתמשים בעוגיות',
+      description: 'אתר זה משתמש בעוגיות כדי לשפר את חוויית הגלישה שלך. על ידי המשך השימוש באתר, אתה מסכים לשימוש בעוגיות.',
+      acceptAll: 'אישור הכל',
+      acceptNecessary: 'עוגיות הכרחיות בלבד',
+      showPreferences: 'הגדרות עוגיות',
+      closeLabel: 'סגור',
+      necessary: 'עוגיות הכרחיות',
+      necessaryDesc: 'עוגיות אלו נדרשות לתפקוד בסיסי של האתר',
+      analytics: 'עוגיות אנליטיות',
+      analyticsDesc: 'עוגיות אלו עוזרות לנו להבין כיצד המשתמשים מתקשרים עם האתר',
+      marketing: 'עוגיות שיווקיות',
+      marketingDesc: 'עוגיות אלו משמשות להצגת פרסומות רלוונטיות'
+    },
+    en: {
+      title: 'We use cookies',
+      description: 'This website uses cookies to enhance your browsing experience. By continuing to use this site, you consent to our use of cookies.',
+      acceptAll: 'Accept All',
+      acceptNecessary: 'Necessary Only',
+      showPreferences: 'Cookie Settings',
+      closeLabel: 'Close',
+      necessary: 'Necessary Cookies',
+      necessaryDesc: 'These cookies are required for basic site functionality',
+      analytics: 'Analytics Cookies',
+      analyticsDesc: 'These cookies help us understand how visitors interact with the website',
+      marketing: 'Marketing Cookies',
+      marketingDesc: 'These cookies are used to deliver relevant advertisements'
+    },
+    ar: {
+      title: 'نحن نستخدم ملفات تعريف الارتباط',
+      description: 'يستخدم هذا الموقع ملفات تعريف الارتباط لتحسين تجربة التصفح الخاصة بك. من خلال الاستمرار في استخدام هذا الموقع، فإنك توافق على استخدامنا لملفات تعريف الارتباط.',
+      acceptAll: 'قبول الكل',
+      acceptNecessary: 'الضرورية فقط',
+      showPreferences: 'إعدادات ملفات تعريف الارتباط',
+      closeLabel: 'إغلاق',
+      necessary: 'ملفات تعريف الارتباط الضرورية',
+      necessaryDesc: 'هذه الملفات مطلوبة للوظائف الأساسية للموقع',
+      analytics: 'ملفات تعريف الارتباط التحليلية',
+      analyticsDesc: 'تساعدنا هذه الملفات على فهم كيفية تفاعل الزوار مع الموقع',
+      marketing: 'ملفات تعريف الارتباط التسويقية',
+      marketingDesc: 'تُستخدم هذه الملفات لعرض إعلانات ذات صلة'
+    },
+    ru: {
+      title: 'Мы используем файлы cookie',
+      description: 'Этот сайт использует файлы cookie для улучшения вашего опыта просмотра. Продолжая использовать этот сайт, вы соглашаетесь на использование нами файлов cookie.',
+      acceptAll: 'Принять все',
+      acceptNecessary: 'Только необходимые',
+      showPreferences: 'Настройки cookie',
+      closeLabel: 'Закрыть',
+      necessary: 'Необходимые файлы cookie',
+      necessaryDesc: 'Эти файлы cookie необходимы для базовой функциональности сайта',
+      analytics: 'Аналитические файлы cookie',
+      analyticsDesc: 'Эти файлы cookie помогают нам понять, как посетители взаимодействуют с сайтом',
+      marketing: 'Маркетинговые файлы cookie',
+      marketingDesc: 'Эти файлы cookie используются для показа релевантной рекламы'
+    }
+  };
+  
+  const t = translations[currentLang] || translations.he;
+  
+  // Initialize CookieConsent
+  if (typeof CookieConsent !== 'undefined') {
+    CookieConsent.run({
+      guiOptions: {
+        consentModal: {
+          layout: "box",
+          position: "bottom right",
+          equalWeightButtons: false,
+          flipButtons: currentLang === 'he' || currentLang === 'ar'
+        },
+        preferencesModal: {
+          layout: "box",
+          position: "right",
+          equalWeightButtons: false,
+          flipButtons: false
+        }
+      },
+      categories: {
+        necessary: {
+          readOnly: true,
+          enabled: true
+        },
+        analytics: {
+          enabled: false
+        },
+        marketing: {
+          enabled: false
+        }
+      },
+      language: {
+        default: currentLang,
+        translations: {
+          [currentLang]: {
+            consentModal: {
+              title: t.title,
+              description: t.description,
+              acceptAllBtn: t.acceptAll,
+              acceptNecessaryBtn: t.acceptNecessary,
+              showPreferencesBtn: t.showPreferences,
+              closeIconLabel: t.closeLabel
+            },
+            preferencesModal: {
+              title: t.showPreferences,
+              acceptAllBtn: t.acceptAll,
+              acceptNecessaryBtn: t.acceptNecessary,
+              savePreferencesBtn: t.acceptAll,
+              closeIconLabel: t.closeLabel,
+              sections: [
+                {
+                  title: t.necessary,
+                  description: t.necessaryDesc,
+                  linkedCategory: 'necessary'
+                },
+                {
+                  title: t.analytics,
+                  description: t.analyticsDesc,
+                  linkedCategory: 'analytics'
+                },
+                {
+                  title: t.marketing,
+                  description: t.marketingDesc,
+                  linkedCategory: 'marketing'
+                }
+              ]
+            }
+          }
+        }
+      }
+    });
+  }
+});
+</script>
+
+
 <!-- i18next Multi-Language Support -->
 <script>
 (function() {
@@ -604,7 +840,7 @@
       "our_work_h2_5": "למה לבחור בנו כקבלן שיפוצים אמין בישראל?",
       "our_work_h2_6": "רוצים לשמוע עוד על שיפוץ חדרי אמבטיה?",
       "our_work_h3_7": "שיפוץ חדרי אמבטיה - מרעיון לביצוע",
-      "our_work_h3_8": "שיפוץ דירה קומפלט - רמת גן",
+      "our_work_h3_8": "שיפוץ דירה קומפלט - בתל אביב",
       "our_work_h3_9": "חידוש מטבח ופינת אוכל",
       "our_work_p_14": "Happily created by&nbsp;Zappy",
       "our_work_p_15": "ברוכים הבאים לגלריית הפרויקטים של שיפוצים 2000. כאן תוכלו להתרשם ממגוון רחב של עבודות שביצענו עבור לקוחותינו, החל משיפוץ חדרי אמבטיה יוקרתיים ועד לשיפוץ דירות מלא. אנו מאמינים שכל פרויקט הוא כרטיס הביקור שלנו, ולכן אנו משקיעים את מירב המאמצים בכל פרט ופרט.",
@@ -1120,7 +1356,7 @@
       "our_work_h2_5": "Why Choose Us as a Reliable Renovation Contractor in Israel?",
       "our_work_h2_6": "Want to hear more about bathroom renovations?",
       "our_work_h3_7": "Bathroom Renovation - From Concept to Completion",
-      "our_work_h3_8": "Complete Apartment Renovation - Ramat Gan",
+      "our_work_h3_8": "Complete Apartment Renovation - in Tel Aviv",
       "our_work_h3_9": "Kitchen and Dining Area Renovation",
       "our_work_p_14": "Happily created by&nbsp;Zappy",
       "our_work_p_15": "Welcome to the project gallery of שיפוצים 2000. Here you can get an impression of the wide range of work we have performed for our clients, from luxury bathroom renovations to complete apartment renovations. We believe that every project is our business card, which is why we invest maximum effort in every detail.",
@@ -1636,7 +1872,7 @@
       "our_work_h2_5": "Почему выбрать нас как надежного подрядчика по ремонту в Израиле?",
       "our_work_h2_6": "Хотите узнать больше о ремонте ванных комнат?",
       "our_work_h3_7": "Ремонт ванных комнат - от идеи до реализации",
-      "our_work_h3_8": "Полный ремонт квартиры - Рамат-Ган",
+      "our_work_h3_8": "Полный ремонт квартиры - в Тель-Авиве",
       "our_work_h3_9": "Обновление кухни и столовой зоны",
       "our_work_p_14": "С радостью создано&nbsp;Zappy",
       "our_work_p_15": "Добро пожаловать в галерею проектов Шипуцим 2000. Здесь вы можете ознакомиться с широким спектром работ, которые мы выполнили для наших клиентов, начиная от роскошного ремонта ванных комнат и заканчивая полным ремонтом квартир. Мы верим, что каждый проект - это наша визитная карточка, поэтому мы вкладываем максимум усилий в каждую деталь.",
@@ -2152,7 +2388,7 @@
       "our_work_h2_5": "لماذا تختارنا كمقاول تجديدات موثوق في إسرائيل؟",
       "our_work_h2_6": "تريد سماع المزيد عن تجديد الحمامات؟",
       "our_work_h3_7": "تجديد الحمامات - من الفكرة إلى التنفيذ",
-      "our_work_h3_8": "تجديد شقة كامل - رمات غان",
+      "our_work_h3_8": "تجديد شقة كامل - في تل أبيب",
       "our_work_h3_9": "تجديد المطبخ وزاوية الطعام",
       "our_work_p_14": "تم الإنشاء بسعادة بواسطة&nbsp;Zappy",
       "our_work_p_15": "مرحباً بكم في معرض مشاريع شيبوتسيم 2000. هنا يمكنكم الاطلاع على مجموعة واسعة من الأعمال التي نفذناها لعملائنا، بدءاً من تجديد الحمامات الفاخرة وحتى تجديد الشقق الكامل. نحن نؤمن أن كل مشروع هو بطاقة أعمالنا، ولذلك نستثمر أقصى جهودنا في كل تفصيل.",
@@ -2746,240 +2982,6 @@
   }
 })();
 </script>
-
-<!-- Mobile Menu Toggle Script -->
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  const mobileToggle = document.getElementById('mobileToggle');
-  const navMenu = document.getElementById('navMenu');
-  const hamburgerIcon = mobileToggle.querySelector('.hamburger-icon');
-  const closeIcon = mobileToggle.querySelector('.close-icon');
-  
-  mobileToggle.addEventListener('click', function() {
-    navMenu.classList.toggle('active');
-    
-    // Toggle icons
-    if (navMenu.classList.contains('active')) {
-      hamburgerIcon.style.display = 'none';
-      closeIcon.style.display = 'block';
-    } else {
-      hamburgerIcon.style.display = 'block';
-      closeIcon.style.display = 'none';
-    }
-  });
-  
-  // Close menu when clicking outside
-  document.addEventListener('click', function(event) {
-    if (!navMenu.contains(event.target) && !mobileToggle.contains(event.target)) {
-      navMenu.classList.remove('active');
-      hamburgerIcon.style.display = 'block';
-      closeIcon.style.display = 'none';
-    }
-  });
-  
-  // Close menu when clicking on a link
-  navMenu.querySelectorAll('a').forEach(function(link) {
-    link.addEventListener('click', function() {
-      navMenu.classList.remove('active');
-      hamburgerIcon.style.display = 'block';
-      closeIcon.style.display = 'none';
-    });
-  });
-});
-</script>
-
-<!-- Accessibility Widget Keyboard Shortcut (ALT+A) - Desktop Only -->
-<script>
-(function() {
-  // Only enable on desktop (screen width > 768px)
-  if (window.innerWidth <= 768) {
-    return; // Exit on mobile
-  }
-  
-  let altPressed = false;
-  
-  document.addEventListener('keydown', function(e) {
-    // Check if ALT key is pressed
-    if (e.key === 'Alt') {
-      altPressed = true;
-    }
-    
-    // Check if ALT+A is pressed (desktop only)
-    if (altPressed && (e.key === 'a' || e.key === 'A')) {
-      e.preventDefault();
-      
-      // Toggle visibility class on body
-      document.body.classList.toggle('accessibility-widget-visible');
-      
-      // If making visible, also open the menu
-      if (document.body.classList.contains('accessibility-widget-visible')) {
-        // Wait a bit for the button to be visible, then click it
-        setTimeout(function() {
-          const accButton = document.getElementById('mic-access-tool-general-button') || 
-                          document.querySelector('.mic-access-tool-general-button') ||
-                          document.querySelector('._access-icon');
-          if (accButton && typeof accButton.click === 'function') {
-            accButton.click();
-          }
-        }, 100);
-      }
-    }
-  });
-  
-  document.addEventListener('keyup', function(e) {
-    if (e.key === 'Alt') {
-      altPressed = false;
-    }
-  });
-  
-  // Reset on window blur (when switching windows/tabs)
-  window.addEventListener('blur', function() {
-    altPressed = false;
-  });
-})();
-</script>
-
-<!-- Cookie Consent Configuration -->
-<script>
-document.addEventListener('DOMContentLoaded', function() {
-  // Get current language from HTML lang attribute
-  const currentLang = document.documentElement.lang || 'he';
-  
-  // Cookie consent translations
-  const translations = {
-    he: {
-      title: 'אנחנו משתמשים בעוגיות',
-      description: 'אתר זה משתמש בעוגיות כדי לשפר את חוויית הגלישה שלך. על ידי המשך השימוש באתר, אתה מסכים לשימוש בעוגיות.',
-      acceptAll: 'אישור הכל',
-      acceptNecessary: 'עוגיות הכרחיות בלבד',
-      showPreferences: 'הגדרות עוגיות',
-      closeLabel: 'סגור',
-      necessary: 'עוגיות הכרחיות',
-      necessaryDesc: 'עוגיות אלו נדרשות לתפקוד בסיסי של האתר',
-      analytics: 'עוגיות אנליטיות',
-      analyticsDesc: 'עוגיות אלו עוזרות לנו להבין כיצד המשתמשים מתקשרים עם האתר',
-      marketing: 'עוגיות שיווקיות',
-      marketingDesc: 'עוגיות אלו משמשות להצגת פרסומות רלוונטיות'
-    },
-    en: {
-      title: 'We use cookies',
-      description: 'This website uses cookies to enhance your browsing experience. By continuing to use this site, you consent to our use of cookies.',
-      acceptAll: 'Accept All',
-      acceptNecessary: 'Necessary Only',
-      showPreferences: 'Cookie Settings',
-      closeLabel: 'Close',
-      necessary: 'Necessary Cookies',
-      necessaryDesc: 'These cookies are required for basic site functionality',
-      analytics: 'Analytics Cookies',
-      analyticsDesc: 'These cookies help us understand how visitors interact with the website',
-      marketing: 'Marketing Cookies',
-      marketingDesc: 'These cookies are used to deliver relevant advertisements'
-    },
-    ar: {
-      title: 'نحن نستخدم ملفات تعريف الارتباط',
-      description: 'يستخدم هذا الموقع ملفات تعريف الارتباط لتحسين تجربة التصفح الخاصة بك. من خلال الاستمرار في استخدام هذا الموقع، فإنك توافق على استخدامنا لملفات تعريف الارتباط.',
-      acceptAll: 'قبول الكل',
-      acceptNecessary: 'الضرورية فقط',
-      showPreferences: 'إعدادات ملفات تعريف الارتباط',
-      closeLabel: 'إغلاق',
-      necessary: 'ملفات تعريف الارتباط الضرورية',
-      necessaryDesc: 'هذه الملفات مطلوبة للوظائف الأساسية للموقع',
-      analytics: 'ملفات تعريف الارتباط التحليلية',
-      analyticsDesc: 'تساعدنا هذه الملفات على فهم كيفية تفاعل الزوار مع الموقع',
-      marketing: 'ملفات تعريف الارتباط التسويقية',
-      marketingDesc: 'تُستخدم هذه الملفات لعرض إعلانات ذات صلة'
-    },
-    ru: {
-      title: 'Мы используем файлы cookie',
-      description: 'Этот сайт использует файлы cookie для улучшения вашего опыта просмотра. Продолжая использовать этот сайт, вы соглашаетесь на использование нами файлов cookie.',
-      acceptAll: 'Принять все',
-      acceptNecessary: 'Только необходимые',
-      showPreferences: 'Настройки cookie',
-      closeLabel: 'Закрыть',
-      necessary: 'Необходимые файлы cookie',
-      necessaryDesc: 'Эти файлы cookie необходимы для базовой функциональности сайта',
-      analytics: 'Аналитические файлы cookie',
-      analyticsDesc: 'Эти файлы cookie помогают нам понять, как посетители взаимодействуют с сайтом',
-      marketing: 'Маркетинговые файлы cookie',
-      marketingDesc: 'Эти файлы cookie используются для показа релевантной рекламы'
-    }
-  };
-  
-  const t = translations[currentLang] || translations.he;
-  
-  // Initialize CookieConsent
-  if (typeof CookieConsent !== 'undefined') {
-    CookieConsent.run({
-      guiOptions: {
-        consentModal: {
-          layout: "box",
-          position: "bottom right",
-          equalWeightButtons: false,
-          flipButtons: currentLang === 'he' || currentLang === 'ar'
-        },
-        preferencesModal: {
-          layout: "box",
-          position: "right",
-          equalWeightButtons: false,
-          flipButtons: false
-        }
-      },
-      categories: {
-        necessary: {
-          readOnly: true,
-          enabled: true
-        },
-        analytics: {
-          enabled: false
-        },
-        marketing: {
-          enabled: false
-        }
-      },
-      language: {
-        default: currentLang,
-        translations: {
-          [currentLang]: {
-            consentModal: {
-              title: t.title,
-              description: t.description,
-              acceptAllBtn: t.acceptAll,
-              acceptNecessaryBtn: t.acceptNecessary,
-              showPreferencesBtn: t.showPreferences,
-              closeIconLabel: t.closeLabel
-            },
-            preferencesModal: {
-              title: t.showPreferences,
-              acceptAllBtn: t.acceptAll,
-              acceptNecessaryBtn: t.acceptNecessary,
-              savePreferencesBtn: t.acceptAll,
-              closeIconLabel: t.closeLabel,
-              sections: [
-                {
-                  title: t.necessary,
-                  description: t.necessaryDesc,
-                  linkedCategory: 'necessary'
-                },
-                {
-                  title: t.analytics,
-                  description: t.analyticsDesc,
-                  linkedCategory: 'analytics'
-                },
-                {
-                  title: t.marketing,
-                  description: t.marketingDesc,
-                  linkedCategory: 'marketing'
-                }
-              ]
-            }
-          }
-        }
-      }
-    });
-  }
-});
-</script>
-
 
     <script id="zappy-mobile-submenu-script">
     (function() {
