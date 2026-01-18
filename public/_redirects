@@ -1,45 +1,45 @@
 # Clean URL redirects for Render static hosting
 # These rewrite rules show clean URLs to users while serving .html files
 
+/gallery  /gallery.html  200
 /services  /services.html  200
 /about  /about.html  200
-/contact  /contact.html  200
 /privacy  /privacy.html  200
 /accessibility  /accessibility.html  200
 /terms  /terms.html  200
-/gallery  /gallery.html  200
 /our-work  /our-work.html  200
+/contact  /contact.html  200
 
 # Language slug rewrites for SEO
 /en  /en/index.html  200
+/en/gallery  /en/gallery.html  200
 /en/services  /en/services.html  200
 /en/about  /en/about.html  200
-/en/contact  /en/contact.html  200
 /en/privacy  /en/privacy.html  200
 /en/accessibility  /en/accessibility.html  200
 /en/terms  /en/terms.html  200
-/en/gallery  /en/gallery.html  200
 /en/our-work  /en/our-work.html  200
+/en/contact  /en/contact.html  200
 /en  /en/index.html  200
 /ru  /ru/index.html  200
+/ru/gallery  /ru/gallery.html  200
 /ru/services  /ru/services.html  200
 /ru/about  /ru/about.html  200
-/ru/contact  /ru/contact.html  200
 /ru/privacy  /ru/privacy.html  200
 /ru/accessibility  /ru/accessibility.html  200
 /ru/terms  /ru/terms.html  200
-/ru/gallery  /ru/gallery.html  200
 /ru/our-work  /ru/our-work.html  200
+/ru/contact  /ru/contact.html  200
 /ru  /ru/index.html  200
 /ar  /ar/index.html  200
+/ar/gallery  /ar/gallery.html  200
 /ar/services  /ar/services.html  200
 /ar/about  /ar/about.html  200
-/ar/contact  /ar/contact.html  200
 /ar/privacy  /ar/privacy.html  200
 /ar/accessibility  /ar/accessibility.html  200
 /ar/terms  /ar/terms.html  200
-/ar/gallery  /ar/gallery.html  200
 /ar/our-work  /ar/our-work.html  200
+/ar/contact  /ar/contact.html  200
 /ar  /ar/index.html  200
 
 # Legal pages - redirect old .html URLs to friendly URLs
