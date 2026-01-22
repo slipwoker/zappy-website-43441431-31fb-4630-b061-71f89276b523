@@ -71,7 +71,7 @@ p {
   font-weight: 400;
   line-height: 1.7;
   margin-bottom: 1rem;
-  color: inherit;
+  color: #00B3B3;
 }
 
 small, .small-text {
@@ -392,7 +392,8 @@ section {
 .service-card h3,
 .service-card p {
   padding: 0 20px;
-}
+
+  color: #00B3B3;}
 
 .service-card h3 {
   margin-top: 1rem;
@@ -400,7 +401,8 @@ section {
 
 .service-card p {
   margin-bottom: 1.5rem;
-}
+
+  color: #00B3B3;}
 
 .process-section {
   background: var(--bg-light);
@@ -417,7 +419,8 @@ section {
 .process-step {
   text-align: center;
   padding: 24px;
-}
+
+  color: #00B3B3;}
 
 .step-number {
   width: 60px;
@@ -441,7 +444,7 @@ section {
 
 .cta-section h2,
 .cta-section p {
-  color: var(--light-text);
+  color: #00B3B3;
 }
 
 .page-header {
@@ -610,7 +613,8 @@ section {
 .form-group {
   display: flex;
   flex-direction: column;
-}
+
+  color: #00B3B3;}
 
 .form-group label {
   margin-bottom: 0.5rem;
@@ -669,7 +673,8 @@ section {
   h1 { font-size: 36px; }
   h2 { font-size: 28px; }
   h3 { font-size: 20px; }
-  p { font-size: 15px; }
+  p { font-size: 15px; 
+  color: #00B3B3;}
 }
 
 @media (max-width: 768px) {
@@ -691,7 +696,8 @@ section {
     margin-top: 0.5rem;
   }
   
-  p { font-size: 14px; }
+  p { font-size: 14px; 
+  color: #00B3B3;}
   
   section {
     padding-top: 15px;
@@ -861,7 +867,8 @@ img, picture, figure {
 .legal-page-content p {
   margin-bottom: 1rem;
   line-height: 1.7;
-}
+
+  color: #00B3B3;}
 
 .legal-page-content ul {
   margin-bottom: 1.5rem;
@@ -928,7 +935,8 @@ img, picture, figure {
     .legal-footer .all-rights-reserved p {
       margin: 0 !important;
       margin-bottom: 0 !important;
-    }
+    
+  color: #00B3B3;}
 
     .legal-footer .zappy-attribution {
       text-align: center;
@@ -940,7 +948,7 @@ img, picture, figure {
     .legal-footer .zappy-attribution p {
       margin: 0;
       font-size: 16px;
-      color: #1a1a1a;
+      color: #00B3B3;
       font-style: italic;
     }
     
@@ -1839,7 +1847,7 @@ p {
   font-weight: 400;
   line-height: 1.7;
   margin-bottom: 1rem;
-  color: inherit;
+  color: #00B3B3;
 }
 
 small, .small-text {
@@ -2160,7 +2168,8 @@ section {
 .service-card h3,
 .service-card p {
   padding: 0 20px;
-}
+
+  color: #00B3B3;}
 
 .service-card h3 {
   margin-top: 1rem;
@@ -2168,7 +2177,8 @@ section {
 
 .service-card p {
   margin-bottom: 1.5rem;
-}
+
+  color: #00B3B3;}
 
 .process-section {
   background: var(--bg-light);
@@ -2185,7 +2195,8 @@ section {
 .process-step {
   text-align: center;
   padding: 24px;
-}
+
+  color: #00B3B3;}
 
 .step-number {
   width: 60px;
@@ -2209,7 +2220,7 @@ section {
 
 .cta-section h2,
 .cta-section p {
-  color: var(--light-text);
+  color: #00B3B3;
 }
 
 .page-header {
@@ -2378,7 +2389,8 @@ section {
 .form-group {
   display: flex;
   flex-direction: column;
-}
+
+  color: #00B3B3;}
 
 .form-group label {
   margin-bottom: 0.5rem;
@@ -2437,7 +2449,8 @@ section {
   h1 { font-size: 36px; }
   h2 { font-size: 28px; }
   h3 { font-size: 20px; }
-  p { font-size: 15px; }
+  p { font-size: 15px; 
+  color: #00B3B3;}
 }
 
 @media (max-width: 768px) {
@@ -2459,7 +2472,8 @@ section {
     margin-top: 0.5rem;
   }
   
-  p { font-size: 14px; }
+  p { font-size: 14px; 
+  color: #00B3B3;}
   
   section {
     padding-top: 15px;
@@ -2629,7 +2643,8 @@ img, picture, figure {
 .legal-page-content p {
   margin-bottom: 1rem;
   line-height: 1.7;
-}
+
+  color: #00B3B3;}
 
 .legal-page-content ul {
   margin-bottom: 1.5rem;
@@ -2696,7 +2711,8 @@ img, picture, figure {
     .legal-footer .all-rights-reserved p {
       margin: 0 !important;
       margin-bottom: 0 !important;
-    }
+    
+  color: #00B3B3;}
 
     .legal-footer .zappy-attribution {
       text-align: center;
@@ -2708,7 +2724,7 @@ img, picture, figure {
     .legal-footer .zappy-attribution p {
       margin: 0;
       font-size: 16px;
-      color: #1a1a1a;
+      color: #00B3B3;
       font-style: italic;
     }
     
@@ -3605,7 +3621,7 @@ p {
   font-weight: 400;
   line-height: 1.7;
   margin-bottom: 1rem;
-  color: inherit;
+  color: #00B3B3;
 }
 
 small, .small-text {
@@ -3926,7 +3942,8 @@ section {
 .service-card h3,
 .service-card p {
   padding: 0 20px;
-}
+
+  color: #00B3B3;}
 
 .service-card h3 {
   margin-top: 1rem;
@@ -3934,7 +3951,8 @@ section {
 
 .service-card p {
   margin-bottom: 1.5rem;
-}
+
+  color: #00B3B3;}
 
 .process-section {
   background: var(--bg-light);
@@ -3951,7 +3969,8 @@ section {
 .process-step {
   text-align: center;
   padding: 24px;
-}
+
+  color: #00B3B3;}
 
 .step-number {
   width: 60px;
@@ -3975,7 +3994,7 @@ section {
 
 .cta-section h2,
 .cta-section p {
-  color: var(--light-text);
+  color: #00B3B3;
 }
 
 .page-header {
@@ -4144,7 +4163,8 @@ section {
 .form-group {
   display: flex;
   flex-direction: column;
-}
+
+  color: #00B3B3;}
 
 .form-group label {
   margin-bottom: 0.5rem;
@@ -4203,7 +4223,8 @@ section {
   h1 { font-size: 36px; }
   h2 { font-size: 28px; }
   h3 { font-size: 20px; }
-  p { font-size: 15px; }
+  p { font-size: 15px; 
+  color: #00B3B3;}
 }
 
 @media (max-width: 768px) {
@@ -4225,7 +4246,8 @@ section {
     margin-top: 0.5rem;
   }
   
-  p { font-size: 14px; }
+  p { font-size: 14px; 
+  color: #00B3B3;}
   
   section {
     padding-top: 15px;
@@ -4395,7 +4417,8 @@ img, picture, figure {
 .legal-page-content p {
   margin-bottom: 1rem;
   line-height: 1.7;
-}
+
+  color: #00B3B3;}
 
 .legal-page-content ul {
   margin-bottom: 1.5rem;
@@ -4462,7 +4485,8 @@ img, picture, figure {
     .legal-footer .all-rights-reserved p {
       margin: 0 !important;
       margin-bottom: 0 !important;
-    }
+    
+  color: #00B3B3;}
 
     .legal-footer .zappy-attribution {
       text-align: center;
@@ -4474,7 +4498,7 @@ img, picture, figure {
     .legal-footer .zappy-attribution p {
       margin: 0;
       font-size: 16px;
-      color: #1a1a1a;
+      color: #00B3B3;
       font-style: italic;
     }
     
@@ -5373,7 +5397,7 @@ p {
   font-weight: 400;
   line-height: 1.7;
   margin-bottom: 1rem;
-  color: inherit;
+  color: #00B3B3;
 }
 
 small, .small-text {
@@ -5694,7 +5718,8 @@ section {
 .service-card h3,
 .service-card p {
   padding: 0 20px;
-}
+
+  color: #00B3B3;}
 
 .service-card h3 {
   margin-top: 1rem;
@@ -5702,7 +5727,8 @@ section {
 
 .service-card p {
   margin-bottom: 1.5rem;
-}
+
+  color: #00B3B3;}
 
 .process-section {
   background: var(--bg-light);
@@ -5719,7 +5745,8 @@ section {
 .process-step {
   text-align: center;
   padding: 24px;
-}
+
+  color: #00B3B3;}
 
 .step-number {
   width: 60px;
@@ -5743,7 +5770,7 @@ section {
 
 .cta-section h2,
 .cta-section p {
-  color: var(--light-text);
+  color: #00B3B3;
 }
 
 .page-header {
@@ -5912,7 +5939,8 @@ section {
 .form-group {
   display: flex;
   flex-direction: column;
-}
+
+  color: #00B3B3;}
 
 .form-group label {
   margin-bottom: 0.5rem;
@@ -5971,7 +5999,8 @@ section {
   h1 { font-size: 36px; }
   h2 { font-size: 28px; }
   h3 { font-size: 20px; }
-  p { font-size: 15px; }
+  p { font-size: 15px; 
+  color: #00B3B3;}
 }
 
 @media (max-width: 768px) {
@@ -5993,7 +6022,8 @@ section {
     margin-top: 0.5rem;
   }
   
-  p { font-size: 14px; }
+  p { font-size: 14px; 
+  color: #00B3B3;}
   
   section {
     padding-top: 15px;
@@ -6163,7 +6193,8 @@ img, picture, figure {
 .legal-page-content p {
   margin-bottom: 1rem;
   line-height: 1.7;
-}
+
+  color: #00B3B3;}
 
 .legal-page-content ul {
   margin-bottom: 1.5rem;
@@ -6230,7 +6261,8 @@ img, picture, figure {
     .legal-footer .all-rights-reserved p {
       margin: 0 !important;
       margin-bottom: 0 !important;
-    }
+    
+  color: #00B3B3;}
 
     .legal-footer .zappy-attribution {
       text-align: center;
@@ -6242,7 +6274,7 @@ img, picture, figure {
     .legal-footer .zappy-attribution p {
       margin: 0;
       font-size: 16px;
-      color: #1a1a1a;
+      color: #00B3B3;
       font-style: italic;
     }
     
@@ -7100,3 +7132,41 @@ html[dir="rtl"] .navbar .lang-switcher{margin-right: auto !important;margin-left
 }
 
 /* ========== END RTL MOBILE NAVBAR FIX ========== */
+
+
+/* ========== GRID MOBILE RESPONSIVE FIX (zappy-grid-mobile-fix) ========== */
+/* Ensures AI-generated grids with fixed pixel widths are responsive on mobile */
+
+@media (max-width: 768px) {
+  /* Auto-grid (AI-generated) grids - force single column on mobile */
+  .zappy-preserve-css-grid[data-zappy-auto-grid="true"],
+  [data-zappy-auto-grid="true"] {
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem !important;
+  }
+  
+  /* Media-only grid items - constrain height on mobile */
+  .zappy-preserve-css-grid[data-zappy-auto-grid="true"] > .zappy-grid-item-media-only,
+  [data-zappy-auto-grid="true"] > .zappy-grid-item-media-only {
+    height: auto !important;
+    max-height: 300px !important;
+  }
+  
+  .zappy-preserve-css-grid[data-zappy-auto-grid="true"] > .zappy-grid-item-media-only img,
+  [data-zappy-auto-grid="true"] > .zappy-grid-item-media-only img {
+    height: auto !important;
+    max-height: 300px !important;
+  }
+  
+  /* Explicit column grids - force single column on mobile */
+  [data-zappy-explicit-columns="true"] {
+    grid-template-columns: 1fr !important;
+  }
+  
+  /* Inline grid with fixed pixel columns - make responsive */
+  .zappy-inline-grid-active.zappy-preserve-css-grid {
+    grid-template-columns: 1fr !important;
+  }
+}
+
+/* ========== END GRID MOBILE RESPONSIVE FIX ========== */
