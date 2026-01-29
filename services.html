@@ -3339,6 +3339,9 @@
     return 'he';
   }
   
+  // Callbacks for language change events (e.g., e-commerce content refresh)
+  const languageChangeCallbacks = [];
+  
   // Simple i18n implementation (no external dependency)
   const zappyI18n = {
     language: detectLanguage(),
@@ -3357,6 +3360,7 @@
     },
     changeLanguage: function(lang) {
       if (!availableLanguages.includes(lang)) return Promise.resolve();
+      var oldLang = this.language;
       this.language = lang;
       localStorage.setItem('zappy_lang', lang);
       updateContent();
@@ -3365,10 +3369,26 @@
       fixLanguageSwitcherColor();
       // Also re-check after a short delay to ensure styles are applied
       setTimeout(fixLanguageSwitcherColor, 100);
+      
+      // Call all registered language change callbacks (e.g., e-commerce content refresh)
+      languageChangeCallbacks.forEach(function(callback) {
+        try {
+          callback(lang, oldLang);
+        } catch (e) {
+          console.error('[i18n] Language change callback error:', e);
+        }
+      });
+      
       return Promise.resolve();
     },
     getCurrentLanguage: function() { return this.language; },
-    getAvailableLanguages: function() { return availableLanguages; }
+    getAvailableLanguages: function() { return availableLanguages; },
+    // Register a callback to be called when language changes
+    onLanguageChange: function(callback) {
+      if (typeof callback === 'function') {
+        languageChangeCallbacks.push(callback);
+      }
+    }
   };
   
   // Update all translatable content
@@ -3476,6 +3496,18 @@
       el.style.textAlign = isRTL ? 'right' : 'left';
     });
     
+    // Update catalog menu RTL class to match current direction
+    // This is critical for e-commerce sites with category navigation
+    document.querySelectorAll('.zappy-catalog-menu').forEach(function(el) {
+      if (isRTL) {
+        el.classList.add('rtl');
+        el.setAttribute('dir', 'rtl');
+      } else {
+        el.classList.remove('rtl');
+        el.removeAttribute('dir');
+      }
+    });
+    
     // IMPORTANT: Do NOT set direction on navigation flex containers!
     // V2 sites have layouts designed for a specific direction.
     // Changing inline direction on flex containers reverses the item order, breaking layouts.
@@ -3523,6 +3555,21 @@
       // Clear any margin overrides
       el.style.removeProperty('margin-left');
       el.style.removeProperty('margin-right');
+    });
+    
+    // CRITICAL FIX FOR E-COMMERCE SITES: Move lang-switcher inside nav-icons-left
+    // E-commerce sites have a nav-icons-left container with search box.
+    // For RTL: lang-switcher should appear to the RIGHT of search box
+    // For LTR: lang-switcher should appear to the LEFT of search box
+    document.querySelectorAll('.lang-switcher').forEach(function(el) {
+      var navIconsLeft = document.querySelector('.nav-icons-left');
+      var searchBox = document.querySelector('.nav-search-box');
+      
+      // Only move if not already inside nav-icons-left and the elements exist
+      if (navIconsLeft && searchBox && !el.closest('.nav-icons-left')) {
+        // Insert before search box - in RTL this visually appears to the RIGHT
+        navIconsLeft.insertBefore(el, searchBox);
+      }
     });
     
     // Remove any previously set margins on nav links and logo
