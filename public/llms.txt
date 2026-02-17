@@ -1,6 +1,4 @@
-# שיפוצים פלוס (שיפוצים 2000) — Generative Engine Optimization Map
-
-> A בנייה ושיפוצים business.
+# Business — Generative Engine Optimization Map
 
 ---
 
@@ -34,6 +32,10 @@ https://shiputzim-pro.co.il/contact
 https://shiputzim-pro.co.il/bathroom-renovation
 מתכננים שיפוץ חדרי אמבטיה? שיפוצים 2000 מציעים שירותי שיפוץ מקצועיים, החלפת צנרת, איטום ועיצוב מודרני. קבלו הצעת מחיר משתלמת מקבלן אמין.
 
+### מדריך שיפוץ חדרי אמבטיה | שיפוצים פלוס
+https://shiputzim-pro.co.il/bathroom-renovation-guide
+המדריך המלא לתכנון וביצוע שיפוץ חדרי אמבטיה. כל מה שצריך לדעת על שלבי העבודה, בחירת קבלן שיפוצים אמין, עלויות ועיצוב החדר החדש שלכם.
+
 ## Legal & Policy
 
 ### Privacy Policy
@@ -52,15 +54,7 @@ Information about WCAG compliance and accessibility features.
 
 # Business Context (for LLM understanding)
 
-## About שיפוצים פלוס (שיפוצים 2000)
-שיפוצים פלוס (שיפוצים 2000) is a business in the בנייה ושיפוצים industry.
-
-## Target Audience
-מגזר פרטי, עסקי ומוסדי
-
-## Industry
-בנייה ושיפוצים
-
+## About Business
 ---
 
 # Additional Resources

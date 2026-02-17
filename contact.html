@@ -692,6 +692,31 @@
 })();
 </script>
 <!-- End Zappy Analytics -->
+
+    <style id="mobile-lang-menu-deployed-css">
+    @media (max-width: 768px) {
+      .lang-switcher,
+      .nav-cta-container .lang-switcher,
+      .nav-container .lang-switcher,
+      .navbar .lang-switcher,
+      .navbar .nav-cta-container .lang-switcher,
+      .nav-icons-left .lang-switcher,
+      .nav-ecommerce-icons .lang-switcher { display: none !important; }
+      .mobile-lang-menu { width: 100%; border-top: 1px solid rgba(128,128,128,0.2); padding: 8px 0 0 0; margin-top: 8px; }
+      .mobile-lang-toggle { display: flex !important; align-items: center; justify-content: space-between; width: 100%; padding: 12px 16px; background: none; border: none; cursor: pointer; font-size: 15px; color: inherit; font-family: inherit; }
+      .mobile-lang-toggle::after { content: ''; display: inline-block; width: 8px; height: 8px; border-right: 2px solid currentColor; border-bottom: 2px solid currentColor; transform: rotate(45deg); transition: transform 0.3s ease; margin-left: 8px; }
+      .mobile-lang-toggle.expanded::after { transform: rotate(-135deg); }
+      .mobile-lang-options { max-height: 0; overflow: hidden; transition: max-height 0.3s ease; }
+      .mobile-lang-options.expanded { max-height: 300px; }
+      .mobile-lang-option { display: flex !important; align-items: center; gap: 10px; padding: 10px 24px; text-decoration: none; color: inherit; font-size: 14px; font-family: inherit; }
+      .mobile-lang-option:hover { background: rgba(128,128,128,0.1); }
+      .mobile-lang-option.active { font-weight: 600; opacity: 0.7; pointer-events: none; }
+      .mobile-lang-option img { width: 20px; height: 20px; border-radius: 50%; }
+    }
+    @media (min-width: 769px) {
+      .mobile-lang-menu { display: none !important; }
+    }
+    </style>
     <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
@@ -720,7 +745,7 @@
 <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
 </svg>
 </button>
-<ul class="nav-menu" id="navMenu"><li><a href="/gallery" class="nav-link" style="color: #00B3B3;" data-i18n="new_a_92">גלריית עבודות</a></li><li><a href="/services" data-i18n="contact_nav_41" style="color: #00B3B3;">השירותים שלנו</a></li><li><a href="/about" data-i18n="contact_nav_42" style="color: #00B3B3;">אודות</a></li><li><a href="/our-work" class="nav-link" data-i18n="contact_nav_44" style="color: #00B3B3;">עבודות שביצענו</a></li><li class="nav-cta-item-mobile"><a href="/contact" style="color: #00B3B3;" data-i18n="home_nav_43">צור קשר</a></li><li><a href="/bathroom-renovation" class="nav-link" data-i18n="home_h3_10">שיפוץ חדרי אמבטיה</a></li></ul>
+<ul class="nav-menu" id="navMenu"><li><a href="/gallery" class="nav-link" style="color: #00B3B3;" data-i18n="new_a_92">גלריית עבודות</a></li><li><a href="/services" data-i18n="contact_nav_41" style="color: #00B3B3;">השירותים שלנו</a></li><li><a href="/about" data-i18n="contact_nav_42" style="color: #00B3B3;">אודות</a></li><li><a href="/our-work" class="nav-link" data-i18n="contact_nav_44" style="color: #00B3B3;">עבודות שביצענו</a></li><li class="nav-cta-item-mobile"><a href="/contact" style="color: #00B3B3;" data-i18n="home_nav_43">צור קשר</a></li><li><a href="/bathroom-renovation" class="nav-link" data-i18n="home_h3_10">שיפוץ חדרי אמבטיה</a></li><li><a href="/bathroom-renovation-guide" class="nav-link" data-i18n="new_a_142">מדריך שיפוץ אמבטיה</a></li></ul>
 
 <div class="lang-switcher" data-no-icon-edit="true" style="position:relative;display:inline-flex;align-items:center;z-index:1000;margin:0 4px;">
   <button class="lang-switcher-current" aria-haspopup="true" aria-expanded="false" data-no-icon-edit="true" style="display:flex;align-items:center;padding:8px;background:transparent;border:none;border-radius:6px;cursor:pointer;color:inherit;">
@@ -974,6 +999,11 @@
 
 
 
+
+
+
+
+
 <!-- i18next Multi-Language Support -->
 <script>
 (function() {
@@ -1031,6 +1061,20 @@
       "home_p_29": "© 2025 שיפוצים פלוס (שיפוצים 2000). כל הזכויות שמורות.",
       "home_p_30": "נוצר באמצעות&nbsp;Zappy",
       "new_a_133": "צור קשר באתר",
+      "new_a_134": "מדריך שיפוץ אמבטיה",
+      "new_a_135": "מדריך שיפוץ אמבטיה",
+      "new_a_136": "מדריך שיפוץ אמבטיה",
+      "new_a_137": "מדריך שיפוץ אמבטיה",
+      "new_a_138": "מדריך שיפוץ אמבטיה",
+      "new_a_139": "מדריך שיפוץ אמבטיה",
+      "new_a_140": "מדריך שיפוץ אמבטיה",
+      "new_a_141": "מדריך שיפוץ אמבטיה",
+      "new_a_142": "מדריך שיפוץ אמבטיה",
+      "new_a_143": "מדריך שיפוץ אמבטיה",
+      "new_a_144": "מדריך שיפוץ אמבטיה",
+      "new_a_147": "קבלו הצעת מחיר לשיפוץ",
+      "new_a_172": "צור קשר לייעוץ חינם",
+      "new_a_173": "צפה בפרויקטים שלנו",
       "new_h1_94": "שיפוץ חדרי אמבטיה ברמה הגבוהה ביותר",
       "new_h2_83": "אהבתם את מה שראיתם?",
       "new_h2_97": "למה חשוב לבצע שיפוץ חדרי אמבטיה בצורה מקצועית?",
@@ -1059,6 +1103,20 @@
       "new_p_129": "ניצול מקסימלי של חללים קטנים",
       "new_p_130": "אבזור מודרני בשחור לבן",
       "new_p_132": "אל תתפשרו על פחות מהטוב ביותר עבור הבית שלכם. השאירו פרטים עוד היום ונחזור אליכם עם הצעת מחיר מסודרת עבור שיפוץ חדרי אמבטיה בהתאמה אישית.",
+      "new_p_146": "כל מה שרציתם לדעת על תהליך השיפוץ, בחירת החומרים הנכונים והתנהלות מול קבלן שיפוצים מקצועי. המדריך המלא לשדרוג חדר הרחצה שלכם.",
+      "new_p_149": "חדר האמבטיה הוא אחד החללים החשובים והשימושיים ביותר בבית. אנו מתחילים בו את היום ומסיימים בו את הערב, ולכן לעיצוב ולפונקציונליות שלו יש השפעה ישירה על איכות החיים שלנו. כאשר ניגשים לפרויקט של שיפוץ חדרי אמבטיה, חשוב להבין שמדובר בתהליך מורכב הדורש תכנון מדויק, בחירת אנשי מקצוע מיומנים ושימוש בחומרים איכותיים העמידים בפני רטיבות ולחות לאורך שנים.",
+      "new_p_150": "רבים נוטים לחשוב ששיפוץ הוא רק עניין אסתטי של החלפת קרמיקה וברזים, אך למעשה, הלב של השיפוץ נמצא מתחת לפני השטח: במערכות האינסטלציה, האיטום והחשמל. ביצוע לא מקצועי בשלבים אלו עלול לגרום לנזקים כבדים בעתיד, ולכן בחירת קבלן שיפוצים אמין היא קריטית להצלחת הפרויקט.",
+      "new_p_152": "השלב הראשון בכל פרויקט שיפוצים כולל את פינוי הכלים הסניטריים הישנים, שבירת אריחי הקרמיקה ופינוי הפסולת לאתר מורשה. זהו השלב בו חושפים את התשתית הקיימת ומכינים את החלל לעבודה החדשה.",
+      "new_p_154": "החלפת צנרת המים והביוב היא החלק הקריטי ביותר. שימוש בצנרת PEX או SP איכותית מבטיח שקט נפשי לשנים. לאחר מכן, מתבצע איטום יסודי של הרצפה והקירות למניעת נזילות לשכנים או לחדרים סמוכים.",
+      "new_p_156": "הדבקת אריחי הקרמיקה או הגרניט פורצלן דורשת דיוק רב. זהו השלב שבו החדר מתחיל לקבל את הצורה הסופית שלו. חשוב לבחור אריחים המונעים החלקה (Anti-slip) לרצפה.",
+      "new_p_158": "התקנת הכלים הסניטריים (אסלה, כיור, אמבטיה/מקלחון), ברזים, ארונות אמבטיה, מראות ותאורה. צביעת התקרה בצבע נוגד עובש וניקיון יסודי לפני המסירה.",
+      "new_p_160": "השוק מוצף בבעלי מקצוע, אך איך מוצאים קבלן שיפוצים אמין בישראל? המפתח הוא המלצות, ניסיון ושקיפות. כשאתם מבקשים הצעת מחיר עבור שיפוץ חדרי אמבטיה, ודאו שהיא מפורטת וכוללת את כל מרכיבי העבודה: חומר שחור, נקודות מים, נקודות חשמל, סוג הריצוף וכמויות. הצעת מחיר עמומה היא פתח לתוספות מחיר בהמשך.",
+      "new_p_161": "בנוסף, חשוב לוודא שהקבלן עובד עם חומרים בעלי תקן. בתחום האינסטלציה, למשל, אין מקום לפשרות. צנרת זולה עלולה להתפוצץ לאחר מספר שנים ולגרום לנזק שעולה פי כמה מעלות השיפוץ המקורי. אנו ב\"שיפוצים פלוס\" מקפידים על סטנדרט עבודה גבוה ללא פשרות, תוך שימוש בטכנולוגיות מתקדמות וחומרים מובילים.",
+      "new_p_163": "המונח \"שיפוץ חדר אמבטיה מחיר\" הוא אחד החיפושים הנפוצים, אך התשובה משתנה בהתאם למפרט. שיפוץ קומפלט הכולל החלפת תשתיות יעלה בדרך כלל בין 15,000 ל-30,000 ש\"ח, תלוי בגודל החדר וברמת הגימור של הכלים הסניטריים והקרמיקה שתבחרו. שיפוץ קוסמטי (הדבקה על קיים) יהיה זול יותר, אך אינו מומלץ אם הצנרת בבית ישנה.",
+      "new_p_166": "שלבו תאורה פונקציונלית מעל המראה עם תאורת אווירה נעימה. תאורה טובה מגדילה את תחושת המרחב.",
+      "new_p_168": "בחדרים קטנים, נצלו את הגובה. ארונות תלויים ונישות בקיר (בזמן הבנייה) חוסכים מקום יקר.",
+      "new_p_170": "אם אין חלון גדול, חובה להתקין ונטה חזקה למניעת עובש ורטיבות בתקרה וברובה.",
+      "new_p_171": "צוות המומחים של שיפוצים פלוס עומד לשירותכם. אנו מתחייבים לעבודה מקצועית, עמידה בלוחות זמנים ומחירים הוגנים.",
       "about_h1_1": "שיפוצים פלוס (שיפוצים 2000) - הסיפור שלנו - למעלה מ-20 שנה של מצוינות",
       "about_h2_2": "איך הכל התחיל",
       "about_h2_3": "הערכים שמנחים אותנו",
@@ -1097,17 +1155,29 @@
       "home_h3_14": "הצעת מחיר מפורטת",
       "home_h3_15": "ביצוע השיפוץ",
       "home_h3_16": "מסירה ואחריות",
+      "new_h1_145": "מדריך מקיף לשיפוץ חדרי אמבטיה: מתכנון ועד גמר",
       "new_h2_100": "שלבי העבודה בשיפוץ חדר אמבטיה",
       "new_h2_113": "שיפוץ חדר אמבטיה מחיר - ממה הוא מורכב?",
       "new_h2_120": "מחפשים קבלן שיפוצים אמין בישראל?",
       "new_h2_126": "השראה לפרויקט הבא שלכם",
       "new_h2_131": "מוכנים להתחיל בשיפוץ?",
+      "new_h2_148": "למה חשוב לתכנן נכון שיפוץ חדרי אמבטיה?",
+      "new_h2_159": "דגשים חשובים בבחירת קבלן שיפוצים",
+      "new_h2_164": "טיפים מנצחים לשדרוג חדר הרחצה",
       "new_h3_101": "1. תכנון והריסה",
       "new_h3_103": "2. אינסטלציה וחשמל",
       "new_h3_105": "3. איטום יסודי",
       "new_h3_107": "4. ריצוף וחיפוי",
       "new_h3_109": "5. התקנת כלים סניטריים",
       "new_h3_111": "6. צבע וגמר",
+      "new_h3_151": "פירוק הקיים והכנת השטח",
+      "new_h3_153": "הלב של חדר האמבטיה",
+      "new_h3_155": "עיצוב ואסתטיקה",
+      "new_h3_157": "הטאץ' הסופי",
+      "new_h3_162": "כמה עולה שיפוץ חדר אמבטיה?",
+      "new_h3_165": "תאורה נכונה",
+      "new_h3_167": "פתרונות אחסון",
+      "new_h3_169": "אוורור",
       "new_h4_123": "עמידה בזמנים",
       "new_li_115": "היקף העבודה: האם מדובר בשיפוץ קוסמטי (הדבקת ריצוף) או שיפוץ מן היסוד (החלפת תשתיות)?",
       "new_li_116": "גודל החדר: שטח החיפוי והריצוף משפיע ישירות על עלות העבודה והחומרים.",
@@ -1201,13 +1271,13 @@
       "contact_h3_9": "שעות פעילות",
       "contact_p_14": "Happily created by&nbsp;Zappy",
       "contact_p_15": "דוד סחרוב 17, ראשון לציון, 7548403, ישראל",
-      "contact_p_16": "יום שני: 08:00 - 20:00",
-      "contact_p_17": "יום שלישי: 08:00 - 20:00",
-      "contact_p_18": "יום רביעי: 08:00 - 20:00",
-      "contact_p_19": "יום חמישי: 08:00 - 20:00",
-      "contact_p_20": "יום שישי: 08:00 - 13:00",
+      "contact_p_16": "יום שני: 07:00 - 17:00",
+      "contact_p_17": "יום שלישי: 07:00 - 17:00",
+      "contact_p_18": "יום רביעי: 07:00 - 17:00",
+      "contact_p_19": "יום חמישי: 07:00 - 17:00",
+      "contact_p_20": "יום שישי: 07:00 - 16:00",
       "contact_p_21": "יום שבת: סגור",
-      "contact_p_22": "יום ראשון: 08:00 - 20:00",
+      "contact_p_22": "יום ראשון: 07:00 - 17:00",
       "contact_p_23": "נפגש אתכם באתר, נבין את הצרכים ונציע פתרונות מקצועיים ללא עלות.",
       "contact_p_24": "תקבלו הצעת מחיר שקופה ומפורטת עם כל העלויות ולוח זמנים ברור.",
       "contact_p_25": "אנחנו זמינים לכל שאלה או בקשה לאורך כל הדרך.",
@@ -1419,7 +1489,7 @@
       "privacy_nav_50": "עבודות שביצענו",
       "privacy_nav_51": "צור קשר",
       "services_h2_10": "מעוניינים בשירותים שלנו?",
-      "services_h3_11": "פתרונות שיפוצים מקיפים למגזר הפרטי, העסקי והמוסדי",
+      "services_h3_11": "פתרונות שיפוצים מקיפים למגזר הפרטי, העסקי והמו034032סדי",
       "contact_link_29": "Zappy",
       "contact_link_30": "evgiharel@gmail.com",
       "contact_link_31": "מדיניות פרטיות",
@@ -1612,6 +1682,20 @@
       "home_p_29": "© 2025 Shiputzim Plus (Shiputzim 2000). All rights reserved.",
       "home_p_30": "Created with&nbsp;Zappy",
       "new_a_133": "Contact us on the website",
+      "new_a_134": "Bathroom Renovation Guide",
+      "new_a_135": "Bathroom Renovation Guide",
+      "new_a_136": "Bathroom Renovation Guide",
+      "new_a_137": "Bathroom Renovation Guide",
+      "new_a_138": "Bathroom Renovation Guide",
+      "new_a_139": "Bathroom Renovation Guide",
+      "new_a_140": "Bathroom Renovation Guide",
+      "new_a_141": "Bathroom Renovation Guide",
+      "new_a_142": "Bathroom Renovation Guide",
+      "new_a_143": "Bathroom Renovation Guide",
+      "new_a_144": "Bathroom Renovation Guide",
+      "new_a_147": "Get a Renovation Quote",
+      "new_a_172": "Contact for Free Consultation",
+      "new_a_173": "View Our Projects",
       "new_h1_94": "Bathroom Renovation at the Highest Level",
       "new_h2_83": "Loved what you saw?",
       "new_h2_97": "Why is it important to renovate bathrooms professionally?",
@@ -1640,6 +1724,20 @@
       "new_p_129": "Maximum utilization of small spaces",
       "new_p_130": "Modern black and white fixtures",
       "new_p_132": "Don't settle for less than the best for your home. Leave your details today and we'll get back to you with a detailed quote for custom bathroom renovations.",
+      "new_p_146": "Everything you wanted to know about the renovation process, choosing the right materials and working with a professional renovation contractor. The complete guide to upgrading your bathroom.",
+      "new_p_149": "The bathroom is one of the most important and functional spaces in the home. We start our day there and end our evening there, so its design and functionality have a direct impact on our quality of life. When approaching a bathroom renovation project, it's important to understand that this is a complex process requiring precise planning, selecting skilled professionals, and using quality materials that withstand moisture and humidity for years.",
+      "new_p_150": "Many tend to think that renovation is just an aesthetic matter of replacing tiles and faucets, but in reality, the heart of the renovation lies beneath the surface: in the plumbing, waterproofing, and electrical systems. Unprofessional execution at these stages can cause severe damage in the future, so choosing a reliable renovation contractor is critical to the project's success.",
+      "new_p_152": "The first stage in any renovation project includes removing old sanitary fixtures, breaking ceramic tiles, and disposing of waste at an authorized site. This is the stage where the existing infrastructure is exposed and the space is prepared for new work.",
+      "new_p_154": "Replacing water and sewage pipes is the most critical part. Using quality PEX or SP piping ensures peace of mind for years. Afterwards, thorough waterproofing of floors and walls is performed to prevent leaks to neighbors or adjacent rooms.",
+      "new_p_156": "Installing ceramic or porcelain granite tiles requires great precision. This is the stage where the room begins to take its final shape. It's important to choose anti-slip tiles for the floor.",
+      "new_p_158": "Installing sanitary fixtures (toilet, sink, bathtub/shower), faucets, bathroom cabinets, mirrors, and lighting. Painting the ceiling with anti-mold paint and thorough cleaning before handover.",
+      "new_p_160": "The market is flooded with professionals, but how do you find a reliable renovation contractor in Israel? The key is recommendations, experience, and transparency. When requesting a quote for bathroom renovation, make sure it's detailed and includes all work components: rough materials, water points, electrical points, flooring type, and quantities. A vague quote opens the door to price additions later.",
+      "new_p_161": "Additionally, it's important to ensure the contractor works with standard-compliant materials. In plumbing, for example, there's no room for compromise. Cheap piping can burst after several years and cause damage costing several times the original renovation cost. We at 'Shiputzim Plus' maintain high work standards without compromise, using advanced technologies and leading materials.",
+      "new_p_163": "The term 'bathroom renovation price' is one of the most common searches, but the answer varies according to specifications. A complete renovation including infrastructure replacement will typically cost between 15,000 to 30,000 NIS, depending on room size and finish level of sanitary fixtures and ceramics you choose. Cosmetic renovation (tiling over existing) will be cheaper, but isn't recommended if the house's plumbing is old.",
+      "new_p_166": "Combine functional lighting above the mirror with pleasant ambient lighting. Good lighting enhances the sense of space.",
+      "new_p_168": "In small rooms, utilize height. Wall-mounted cabinets and wall niches (during construction) save valuable space.",
+      "new_p_170": "If there's no large window, a strong ventilation fan must be installed to prevent mold and moisture on the ceiling and walls.",
+      "new_p_171": "The expert team at Shiputzim Plus is at your service. We commit to professional work, meeting schedules, and fair prices.",
       "about_h1_1": "Shiputzim Plus (Shiputzim 2000) - Our Story - Over 20 Years of Excellence",
       "about_h2_2": "How It All Started",
       "about_h2_3": "The Values That Guide Us",
@@ -1678,17 +1776,29 @@
       "home_h3_14": "Detailed Quote",
       "home_h3_15": "Renovation Execution",
       "home_h3_16": "Delivery and Warranty",
+      "new_h1_145": "Complete Guide to Bathroom Renovation: From Planning to Completion",
       "new_h2_100": "Work Stages in Bathroom Renovation",
       "new_h2_113": "Bathroom Renovation Price - What Does It Include?",
       "new_h2_120": "Looking for a reliable renovation contractor in Israel?",
       "new_h2_126": "Inspiration for your next project",
       "new_h2_131": "Ready to start renovating?",
+      "new_h2_148": "Why is Proper Planning Important for Bathroom Renovation?",
+      "new_h2_159": "Important Points in Choosing a Renovation Contractor",
+      "new_h2_164": "Winning Tips for Bathroom Upgrade",
       "new_h3_101": "1. Planning and Demolition",
       "new_h3_103": "2. Plumbing and Electrical",
       "new_h3_105": "3. Thorough Waterproofing",
       "new_h3_107": "4. Flooring and Tiling",
       "new_h3_109": "5. Sanitary Fixture Installation",
       "new_h3_111": "6. Paint and Finishing",
+      "new_h3_151": "Demolition and Site Preparation",
+      "new_h3_153": "The Heart of the Bathroom",
+      "new_h3_155": "Design and Aesthetics",
+      "new_h3_157": "The Final Touch",
+      "new_h3_162": "How Much Does Bathroom Renovation Cost?",
+      "new_h3_165": "Proper Lighting",
+      "new_h3_167": "Storage Solutions",
+      "new_h3_169": "Ventilation",
       "new_h4_123": "Meeting Deadlines",
       "new_li_115": "Scope of work: Is it a cosmetic renovation (tile installation) or renovation from scratch (infrastructure replacement)?",
       "new_li_116": "Room size: The area of tiling and flooring directly affects the cost of work and materials.",
@@ -1782,13 +1892,13 @@
       "contact_h3_9": "Business Hours",
       "contact_p_14": "Happily created by&nbsp;Zappy",
       "contact_p_15": "David Sacharov 17, Rishon LeZion, 7548403, Israel",
-      "contact_p_16": "Monday: 08:00 - 20:00",
-      "contact_p_17": "Tuesday: 08:00 - 20:00",
-      "contact_p_18": "Wednesday: 08:00 - 20:00",
-      "contact_p_19": "Thursday: 08:00 - 20:00",
-      "contact_p_20": "Friday: 08:00 - 13:00",
+      "contact_p_16": "Monday: 07:00 - 17:00",
+      "contact_p_17": "Tuesday: 07:00 - 17:00",
+      "contact_p_18": "Wednesday: 07:00 - 17:00",
+      "contact_p_19": "Thursday: 07:00 - 17:00",
+      "contact_p_20": "Friday: 07:00 - 16:00",
       "contact_p_21": "Saturday: Closed",
-      "contact_p_22": "Sunday: 08:00 - 20:00",
+      "contact_p_22": "Sunday: 07:00 - 17:00",
       "contact_p_23": "We'll meet you on-site, understand your needs and offer professional solutions at no cost.",
       "contact_p_24": "You'll receive a transparent and detailed quote with all costs and a clear timeline.",
       "contact_p_25": "We're available for any question or request throughout the entire process.",
@@ -2000,7 +2110,7 @@
       "privacy_nav_50": "Our Work",
       "privacy_nav_51": "Contact Us",
       "services_h2_10": "Interested in Our Services?",
-      "services_h3_11": "Comprehensive Renovation Solutions for Private, Commercial and Institutional Sectors",
+      "services_h3_11": "Comprehensive renovation solutions for the private, commercial and institutional sectors",
       "contact_link_29": "Zappy",
       "contact_link_30": "evgiharel@gmail.com",
       "contact_link_31": "Privacy Policy",
@@ -2056,7 +2166,7 @@
       "contact_label_40": "Message",
       "our_work_link_33": "Zappy",
       "our_work_link_34": "Contact us for a price quote",
-      "our_work_link_35": "Call now: +972506767646",
+      "our_work_link_35": "Call Now: +972506767646",
       "our_work_link_36": "Privacy Policy",
       "our_work_link_37": "Accessibility",
       "our_work_link_38": "Terms of Use",
@@ -2193,6 +2303,20 @@
       "home_p_29": "© 2025 Ремонт Плюс (Ремонт 2000). Все права защищены.",
       "home_p_30": "Создано с помощью&nbsp;Zappy",
       "new_a_133": "Связаться через сайт",
+      "new_a_134": "Руководство по ремонту ванной комнаты",
+      "new_a_135": "Руководство по ремонту ванной комнаты",
+      "new_a_136": "Руководство по ремонту ванной комнаты",
+      "new_a_137": "Руководство по ремонту ванной комнаты",
+      "new_a_138": "Руководство по ремонту ванной комнаты",
+      "new_a_139": "Руководство по ремонту ванной комнаты",
+      "new_a_140": "Руководство по ремонту ванной комнаты",
+      "new_a_141": "Руководство по ремонту ванной комнаты",
+      "new_a_142": "Руководство по ремонту ванной комнаты",
+      "new_a_143": "Руководство по ремонту ванной комнаты",
+      "new_a_144": "Руководство по ремонту ванной комнаты",
+      "new_a_147": "Получите смету на ремонт",
+      "new_a_172": "Свяжитесь для бесплатной консультации",
+      "new_a_173": "Посмотрите наши проекты",
       "new_h1_94": "Ремонт ванных комнат на высочайшем уровне",
       "new_h2_83": "Понравилось то, что увидели?",
       "new_h2_97": "Почему важно выполнять ремонт ванных комнат профессионально?",
@@ -2221,6 +2345,20 @@
       "new_p_129": "Максимальное использование небольших пространств",
       "new_p_130": "Современная сантехника в черно-белом цвете",
       "new_p_132": "Не соглашайтесь на меньшее, чем лучшее для вашего дома. Оставьте контакты уже сегодня, и мы свяжемся с вами с подробной сметой на индивидуальный ремонт ванных комнат.",
+      "new_p_146": "Всё, что вы хотели знать о процессе ремонта, выборе правильных материалов и работе с профессиональным подрядчиком по ремонту. Полное руководство по модернизации вашей ванной комнаты.",
+      "new_p_149": "Ванная комната - одно из самых важных и функциональных помещений в доме. Мы начинаем в ней день и заканчиваем вечер, поэтому её дизайн и функциональность напрямую влияют на качество нашей жизни. Приступая к проекту ремонта ванной комнаты, важно понимать, что это сложный процесс, требующий точного планирования, выбора квалифицированных специалистов и использования качественных материалов, устойчивых к влаге и сырости на долгие годы.",
+      "new_p_150": "Многие склонны думать, что ремонт - это только эстетический вопрос замены керамики и кранов, но на самом деле, сердце ремонта находится под поверхностью: в системах водопровода, гидроизоляции и электричества. Непрофессиональное выполнение на этих этапах может привести к серьёзным повреждениям в будущем, поэтому выбор надёжного подрядчика по ремонту критически важен для успеха проекта.",
+      "new_p_152": "Первый этап любого ремонтного проекта включает вывоз старой сантехники, демонтаж керамической плитки и вывоз мусора на лицензированную свалку. Это этап, на котором обнажается существующая инфраструктура и подготавливается помещение для новых работ.",
+      "new_p_154": "Замена водопроводных и канализационных труб - самая критическая часть. Использование качественных труб PEX или SP обеспечивает спокойствие на годы. После этого выполняется тщательная гидроизоляция пола и стен для предотвращения протечек к соседям или в смежные комнаты.",
+      "new_p_156": "Укладка керамической плитки или керамогранита требует высокой точности. Это этап, на котором комната начинает приобретать свой окончательный вид. Важно выбирать плитку с антискользящим покрытием (Anti-slip) для пола.",
+      "new_p_158": "Установка сантехники (унитаз, раковина, ванна/душевая кабина), кранов, мебели для ванной, зеркал и освещения. Покраска потолка противогрибковой краской и тщательная уборка перед сдачей.",
+      "new_p_160": "Рынок переполнен специалистами, но как найти надёжного подрядчика по ремонту в Израиле? Ключ - это рекомендации, опыт и прозрачность. Когда вы запрашиваете смету на ремонт ванной комнаты, убедитесь, что она детализирована и включает все компоненты работы: черновые материалы, водные точки, электрические точки, тип напольного покрытия и количества. Расплывчатая смета - это лазейка для дополнительных расходов в дальнейшем.",
+      "new_p_161": "Кроме того, важно убедиться, что подрядчик работает с сертифицированными материалами. В области сантехники, например, нет места компромиссам. Дешёвые трубы могут лопнуть через несколько лет и причинить ущерб, который в несколько раз превышает стоимость первоначального ремонта. Мы в \"Шипуцим Плюс\" придерживаемся высоких стандартов работы без компромиссов, используя передовые технологии и ведущие материалы.",
+      "new_p_163": "Запрос \"ремонт ванной комнаты цена\" - один из самых популярных поисков, но ответ варьируется в зависимости от спецификации. Полный ремонт, включающий замену инфраструктуры, обычно стоит от 15,000 до 30,000 шекелей, в зависимости от размера комнаты и уровня отделки выбранной сантехники и керамики. Косметический ремонт (укладка поверх существующего) будет дешевле, но не рекомендуется, если трубы в доме старые.",
+      "new_p_166": "Сочетайте функциональное освещение над зеркалом с приятным атмосферным освещением. Хорошее освещение увеличивает ощущение пространства.",
+      "new_p_168": "В маленьких комнатах используйте высоту. Навесные шкафы и ниши в стене (во время строительства) экономят ценное место.",
+      "new_p_170": "Если нет большого окна, обязательно установите мощную вытяжку для предотвращения плесени и сырости на потолке и в углах.",
+      "new_p_171": "Команда экспертов Шипуцим Плюс к вашим услугам. Мы гарантируем профессиональную работу, соблюдение сроков и справедливые цены.",
       "about_h1_1": "Ремонт Плюс (Ремонт 2000) - наша история - более 20 лет совершенства",
       "about_h2_2": "Как все началось",
       "about_h2_3": "Ценности, которые нами руководят",
@@ -2259,17 +2397,29 @@
       "home_h3_14": "Подробная смета",
       "home_h3_15": "Выполнение ремонта",
       "home_h3_16": "Сдача и гарантия",
+      "new_h1_145": "Полное руководство по ремонту ванных комнат: от планирования до завершения",
       "new_h2_100": "Этапы работ при ремонте ванной комнаты",
       "new_h2_113": "Ремонт ванной комнаты цена - из чего она складывается?",
       "new_h2_120": "Ищете надежного подрядчика по ремонту в Израиле?",
       "new_h2_126": "Вдохновение для вашего следующего проекта",
       "new_h2_131": "Готовы начать ремонт?",
+      "new_h2_148": "Почему важно правильно планировать ремонт ванных комнат?",
+      "new_h2_159": "Важные моменты при выборе подрядчика по ремонту",
+      "new_h2_164": "Выигрышные советы по модернизации ванной комнаты",
       "new_h3_101": "1. Планирование и демонтаж",
       "new_h3_103": "2. Сантехника и электричество",
       "new_h3_105": "3. Основательная гидроизоляция",
       "new_h3_107": "4. Напольное покрытие и облицовка",
       "new_h3_109": "5. Установка сантехники",
       "new_h3_111": "6. Покраска и финишная отделка",
+      "new_h3_151": "Демонтаж существующего и подготовка площадки",
+      "new_h3_153": "Сердце ванной комнаты",
+      "new_h3_155": "Дизайн и эстетика",
+      "new_h3_157": "Финальные штрихи",
+      "new_h3_162": "Сколько стоит ремонт ванной комнаты?",
+      "new_h3_165": "Правильное освещение",
+      "new_h3_167": "Решения для хранения",
+      "new_h3_169": "Вентиляция",
       "new_h4_123": "Соблюдение сроков",
       "new_li_115": "Объем работ: идет ли речь о косметическом ремонте (укладка напольного покрытия) или капитальном ремонте (замена коммуникаций)?",
       "new_li_116": "Размер комнаты: площадь облицовки и напольного покрытия напрямую влияет на стоимость работ и материалов.",
@@ -2363,13 +2513,13 @@
       "contact_h3_9": "Часы работы",
       "contact_p_14": "Happily created by&nbsp;Zappy",
       "contact_p_15": "Давид Сахаров 17, Ришон ле-Цион, 7548403, Израиль",
-      "contact_p_16": "Понедельник: 08:00 - 20:00",
-      "contact_p_17": "Вторник: 08:00 - 20:00",
-      "contact_p_18": "Среда: 08:00 - 20:00",
-      "contact_p_19": "Четверг: 08:00 - 20:00",
-      "contact_p_20": "Пятница: 08:00 - 13:00",
+      "contact_p_16": "Понедельник: 07:00 - 17:00",
+      "contact_p_17": "Вторник: 07:00 - 17:00",
+      "contact_p_18": "Среда: 07:00 - 17:00",
+      "contact_p_19": "Четверг: 07:00 - 17:00",
+      "contact_p_20": "Пятница: 07:00 - 16:00",
       "contact_p_21": "Суббота: закрыто",
-      "contact_p_22": "Воскресенье: 08:00 - 20:00",
+      "contact_p_22": "Воскресенье: 07:00 - 17:00",
       "contact_p_23": "Встретимся с вами на объекте, поймем потребности и предложим профессиональные решения бесплатно.",
       "contact_p_24": "Вы получите прозрачную и подробную смету со всеми расходами и четким графиком работ.",
       "contact_p_25": "Мы доступны для любых вопросов или запросов на протяжении всего процесса.",
@@ -2774,6 +2924,20 @@
       "home_p_29": "© 2025 شيفوتسيم بلوس (شيفوتسيم 2000). جميع الحقوق محفوظة.",
       "home_p_30": "تم الإنشاء بواسطة&nbsp;Zappy",
       "new_a_133": "تواصل معنا في الموقع",
+      "new_a_134": "دليل تجديد الحمام",
+      "new_a_135": "دليل تجديد الحمام",
+      "new_a_136": "دليل تجديد الحمام",
+      "new_a_137": "دليل تجديد الحمام",
+      "new_a_138": "دليل تجديد الحمام",
+      "new_a_139": "دليل تجديد الحمام",
+      "new_a_140": "دليل تجديد الحمام",
+      "new_a_141": "دليل تجديد الحمام",
+      "new_a_142": "دليل تجديد الحمام",
+      "new_a_143": "دليل تجديد الحمام",
+      "new_a_144": "دليل تجديد الحمام",
+      "new_a_147": "احصلوا على عرض سعر للتجديد",
+      "new_a_172": "تواصلوا للاستشارة المجانية",
+      "new_a_173": "اطلعوا على مشاريعنا",
       "new_h1_94": "تجديد الحمامات بأعلى مستوى من الجودة",
       "new_h2_83": "أعجبكم ما رأيتموه؟",
       "new_h2_97": "لماذا من المهم تجديد الحمامات بطريقة مهنية؟",
@@ -2802,6 +2966,20 @@
       "new_p_129": "استغلال أقصى للمساحات الصغيرة",
       "new_p_130": "تجهيزات عصرية بالأبيض والأسود",
       "new_p_132": "لا تتنازلوا عن أقل من الأفضل لبيتكم. اتركوا تفاصيلكم اليوم وسنعود إليكم بعرض سعر منظم لتجديد حمامات مخصص حسب الطلب.",
+      "new_p_146": "كل ما أردتم معرفته عن عملية التجديد، واختيار المواد المناسبة والتعامل مع مقاول تجديدات محترف. الدليل الكامل لترقية حمامكم.",
+      "new_p_149": "الحمام هو أحد أهم المساحات وأكثرها استخداماً في المنزل. نبدأ به يومنا وننهي به مساءنا، لذلك لتصميمه ووظائفه تأثير مباشر على جودة حياتنا. عندما نشرع في مشروع تجديد الحمامات، من المهم فهم أننا نتحدث عن عملية معقدة تتطلب تخطيطاً دقيقاً، واختيار أهل مهنة ماهرين واستخدام مواد عالية الجودة مقاومة للرطوبة والبلل لسنوات طويلة.",
+      "new_p_150": "كثيرون يميلون إلى الاعتقاد أن التجديد مجرد مسألة جمالية لاستبدال السيراميك والحنفيات، لكن في الواقع، قلب التجديد يكمن تحت السطح: في أنظمة السباكة والعزل والكهرباء. التنفيذ غير المحترف في هذه المراحل قد يسبب أضراراً جسيمة في المستقبل، لذلك اختيار مقاول تجديدات موثوق أمر بالغ الأهمية لنجاح المشروع.",
+      "new_p_152": "المرحلة الأولى في أي مشروع تجديدات تشمل إزالة الأدوات الصحية القديمة، وكسر بلاط السيراميك وإزالة النفايات إلى موقع مرخص. هذه هي المرحلة التي نكشف فيها البنية التحتية الموجودة ونعد المساحة للعمل الجديد.",
+      "new_p_154": "استبدال أنابيب المياه والصرف الصحي هو الجزء الأكثر أهمية. استخدام أنابيب PEX أو SP عالية الجودة يضمن راحة البال لسنوات. بعد ذلك، يتم تنفيذ عزل شامل للأرضية والجدران لمنع التسريبات للجيران أو الغرف المجاورة.",
+      "new_p_156": "لصق بلاط السيراميك أو الجرانيت البورسلين يتطلب دقة عالية. هذه هي المرحلة التي يبدأ فيها الحمام بأخذ شكله النهائي. من المهم اختيار بلاط مانع للانزلاق (Anti-slip) للأرضية.",
+      "new_p_158": "تركيب الأدوات الصحية (المرحاض، الحوض، البانيو/الدش)، الحنفيات، خزائن الحمام، المرايا والإضاءة. طلاء السقف بطلاء مقاوم للعفن وتنظيف شامل قبل التسليم.",
+      "new_p_160": "السوق مليء بأهل المهنة، لكن كيف نجد مقاول تجديدات موثوق في إسرائيل؟ المفتاح هو التوصيات والخبرة والشفافية. عندما تطلبون عرض سعر لتجديد الحمامات، تأكدوا من أنه مفصل ويشمل جميع مكونات العمل: المواد الخام، نقاط المياه، نقاط الكهرباء، نوع البلاط والكميات. عرض السعر الغامض هو مدخل لإضافات سعرية لاحقاً.",
+      "new_p_161": "بالإضافة إلى ذلك، من المهم التأكد من أن المقاول يعمل بمواد معتمدة المعايير. في مجال السباكة، على سبيل المثال، لا مجال للتنازلات. الأنابيب الرخيصة قد تنفجر بعد عدة سنوات وتسبب ضرراً يكلف أضعاف تكلفة التجديد الأصلية. نحن في \"تجديدات بلوس\" نحرص على معيار عمل عالٍ بلا تنازلات، مع استخدام تقنيات متقدمة ومواد رائدة.",
+      "new_p_163": "مصطلح \"تجديد الحمام سعر\" هو أحد أكثر عمليات البحث شيوعاً، لكن الإجابة تختلف حسب المواصفات. التجديد الكامل الذي يشمل استبدال البنية التحتية سيكلف عادة بين 15,000 إلى 30,000 شيكل، حسب حجم الحمام ومستوى تشطيب الأدوات الصحية والسيراميك التي ستختارونها. التجديد التجميلي (اللصق على الموجود) سيكون أرخص، لكنه غير مستحسن إذا كانت الأنابيب في المنزل قديمة.",
+      "new_p_166": "ادمجوا إضاءة وظيفية فوق المرآة مع إضاءة أجواء مريحة. الإضاءة الجيدة تزيد من الشعور بالمساحة.",
+      "new_p_168": "في الغرف الصغيرة، استغلوا الارتفاع. الخزائن المعلقة والكوات في الجدار (أثناء البناء) توفر مساحة ثمينة.",
+      "new_p_170": "إذا لم تكن هناك نافذة كبيرة، يجب تركيب مروحة قوية لمنع العفن والرطوبة في السقف والجدران.",
+      "new_p_171": "فريق خبراء تجديدات بلوس في خدمتكم. نحن نلتزم بالعمل المحترف والالتزام بالجداول الزمنية والأسعار العادلة.",
       "about_h1_1": "شيفوتسيم بلوس (شيفوتسيم 2000) - قصتنا - أكثر من 20 عاماً من التميز",
       "about_h2_2": "كيف بدأ كل شيء",
       "about_h2_3": "القيم التي توجهنا",
@@ -2840,17 +3018,29 @@
       "home_h3_14": "عرض سعر مفصل",
       "home_h3_15": "تنفيذ التجديد",
       "home_h3_16": "التسليم والضمان",
+      "new_h1_145": "دليل شامل لتجديد الحمامات: من التخطيط حتى الإنجاز",
       "new_h2_100": "مراحل العمل في تجديد الحمام",
       "new_h2_113": "سعر تجديد الحمام - مما يتكون؟",
       "new_h2_120": "تبحثون عن مقاول تجديدات موثوق في إسرائيل؟",
       "new_h2_126": "إلهام لمشروعكم القادم",
       "new_h2_131": "مستعدون للبدء بالتجديد؟",
+      "new_h2_148": "لماذا من المهم التخطيط الصحيح لتجديد الحمامات؟",
+      "new_h2_159": "نقاط مهمة في اختيار مقاول التجديدات",
+      "new_h2_164": "نصائح رابحة لترقية الحمام",
       "new_h3_101": "1. التخطيط والهدم",
       "new_h3_103": "2. السباكة والكهرباء",
       "new_h3_105": "3. العزل الأساسي",
       "new_h3_107": "4. الأرضيات والكسوة",
       "new_h3_109": "5. تركيب الأدوات الصحية",
       "new_h3_111": "6. الطلاء واللمسة الأخيرة",
+      "new_h3_151": "هدم الموجود وإعداد المساحة",
+      "new_h3_153": "قلب الحمام",
+      "new_h3_155": "التصميم والجماليات",
+      "new_h3_157": "اللمسة الأخيرة",
+      "new_h3_162": "كم يكلف تجديد الحمام؟",
+      "new_h3_165": "الإضاءة الصحيحة",
+      "new_h3_167": "حلول التخزين",
+      "new_h3_169": "التهوية",
       "new_h4_123": "الالتزام بالمواعيد",
       "new_li_115": "نطاق العمل: هل نتحدث عن تجديد تجميلي (لصق أرضيات) أم تجديد من الأساس (استبدال البنية التحتية)؟",
       "new_li_116": "حجم الحمام: مساحة الكسوة والأرضيات تؤثر مباشرة على تكلفة العمل والمواد.",
@@ -2944,13 +3134,13 @@
       "contact_h3_9": "ساعات العمل",
       "contact_p_14": "Happily created by&nbsp;Zappy",
       "contact_p_15": "دافيد ساحاروف 17، ريشون لتسيون، 7548403، إسرائيل",
-      "contact_p_16": "الاثنين: 08:00 - 20:00",
-      "contact_p_17": "الثلاثاء: 08:00 - 20:00",
-      "contact_p_18": "الأربعاء: 08:00 - 20:00",
-      "contact_p_19": "يوم الخميس: 08:00 - 20:00",
-      "contact_p_20": "يوم الجمعة: 08:00 - 13:00",
+      "contact_p_16": "الاثنين: 07:00 - 17:00",
+      "contact_p_17": "الثلاثاء: 07:00 - 17:00",
+      "contact_p_18": "الأربعاء: 07:00 - 17:00",
+      "contact_p_19": "الخميس: 07:00 - 17:00",
+      "contact_p_20": "الجمعة: 07:00 - 16:00",
       "contact_p_21": "يوم السبت: مغلق",
-      "contact_p_22": "يوم الأحد: 08:00 - 20:00",
+      "contact_p_22": "الأحد: 07:00 - 17:00",
       "contact_p_23": "نلتقي بكم في الموقع، نفهم احتياجاتكم ونقترح حلولاً مهنية بدون تكلفة.",
       "contact_p_24": "ستحصلون على عرض سعر شفاف ومفصل مع جميع التكاليف وجدول زمني واضح.",
       "contact_p_25": "نحن متاحون لأي سؤال أو طلب طوال الطريق.",
@@ -3640,6 +3830,9 @@
         console.log('[i18n] Cleared nav-cta-container inline position - CSS will handle based on dir:', newDir);
       }
     }
+    
+    // Update mobile language submenu in hamburger
+    updateMobileLangMenu();
   }
   
   // Initialize language switcher dropdown
@@ -3696,6 +3889,188 @@
         dropdown.style.transform = 'translateY(-8px)';
       });
     });
+  }
+  
+  // ==============================================
+  // MOBILE LANGUAGE SUBMENU (inside hamburger menu)
+  // ==============================================
+  
+  // Create mobile language menu inside hamburger
+  function injectMobileLangCss() {
+    if (document.getElementById('mobile-lang-menu-css')) return;
+    var style = document.createElement('style');
+    style.id = 'mobile-lang-menu-css';
+    style.textContent = '@media (max-width: 768px) {' +
+      '.lang-switcher, .nav-cta-container .lang-switcher, .nav-container .lang-switcher,' +
+      '.navbar .lang-switcher, .navbar .nav-cta-container .lang-switcher,' +
+      '.nav-icons-left .lang-switcher, .nav-ecommerce-icons .lang-switcher { display: none !important; }' +
+      '.zappy-lang-switcher-container { display: none !important; }' +
+      '.mobile-lang-menu { list-style: none !important; width: 100%; border-top: 1px solid rgba(128,128,128,0.2); margin-top: 8px; padding-top: 8px; }' +
+      '.mobile-lang-toggle { display: flex; align-items: center; gap: 10px; width: 100%; padding: 12px 16px; background: none; border: none; cursor: pointer; color: inherit; font-size: 15px; font-family: inherit; }' +
+      '.mobile-lang-toggle span { flex: 1; }' +
+      'html[dir="rtl"] .mobile-lang-toggle span, html[lang="he"] .mobile-lang-toggle span, html[lang="ar"] .mobile-lang-toggle span { text-align: right; }' +
+      'html:not([dir="rtl"]) .mobile-lang-toggle span { text-align: left; }' +
+      '.mobile-lang-chevron { transition: transform 0.3s ease; flex-shrink: 0; }' +
+      '.mobile-lang-options { display: none; flex-direction: column; padding: 0 16px 8px 46px; }' +
+      'html[dir="rtl"] .mobile-lang-options, html[lang="he"] .mobile-lang-options, html[lang="ar"] .mobile-lang-options { padding: 0 46px 8px 16px; }' +
+      '.mobile-lang-options.open { display: flex; }' +
+      '.mobile-lang-option { display: flex; align-items: center; gap: 8px; padding: 10px 12px; background: none; border: none; cursor: pointer; color: inherit; font-size: 14px; font-family: inherit; border-radius: 6px; transition: background-color 0.2s; width: 100%; }' +
+      'html[dir="rtl"] .mobile-lang-option, html[lang="he"] .mobile-lang-option, html[lang="ar"] .mobile-lang-option { text-align: right; }' +
+      'html:not([dir="rtl"]) .mobile-lang-option { text-align: left; }' +
+      '.mobile-lang-option:hover { background: rgba(128,128,128,0.1); }' +
+      '.mobile-lang-option img { width: 20px; height: 20px; border-radius: 50%; display: inline-block; vertical-align: middle; }' +
+      '}';
+    document.head.appendChild(style);
+  }
+
+  function createMobileLangMenu() {
+    if (window.innerWidth > 768) return;
+    if (document.querySelector('.mobile-lang-menu')) return;
+    if (availableLanguages.length < 2) return;
+    
+    injectMobileLangCss();
+    
+    var navMenu = document.getElementById('navMenu') || document.querySelector('.nav-menu');
+    if (!navMenu) return;
+    
+    var currentLang = zappyI18n.language;
+    var currentInfo = languageInfo[currentLang] || { nativeName: currentLang, flagImg: '' };
+    
+    var langSwitcher = document.querySelector('.lang-switcher');
+    var iconColor = langSwitcher ? langSwitcher.getAttribute('data-icon-color') : 'currentColor';
+    if (!iconColor) iconColor = 'currentColor';
+    
+    var optionsHtml = availableLanguages
+      .filter(function(lang) { return lang !== currentLang; })
+      .map(function(lang) {
+        var info = languageInfo[lang] || { nativeName: lang, flagImg: '' };
+        return '<button class="mobile-lang-option" data-lang="' + lang + '">' +
+          (info.flagImg || info.flag || '') + ' ' + info.nativeName + '</button>';
+      })
+      .join('');
+    
+    var li = document.createElement('li');
+    li.className = 'mobile-lang-menu';
+    li.innerHTML =
+      '<button class="mobile-lang-toggle" type="button">' +
+        '<svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="' + iconColor + '" style="flex-shrink:0;"><path d="M12.039,.002s0,0,0,0c-.013,0-.026-.002-.039-.002-.005,0-.009,0-.014,0-.002,0-.003,0-.005,0C5.373,.011,0,5.39,0,12s5.383,12,12,12,12-5.383,12-12S18.638,.023,12.039,.002Zm9.747,6.998h-4.814c-1.067-2.669-2.712-4.781-3.731-5.925,3.734,.421,6.901,2.719,8.546,5.925Zm-4.786,5c0,1.407-.292,2.753-.731,4H7.731c-.439-1.247-.731-2.593-.731-4s.292-2.754,.73-4h8.539c.439,1.247,.731,2.593,.731,4Zm-1.122,5c-1.229,2.838-3.116,4.99-3.878,5.788-.762-.798-2.649-2.95-3.878-5.788h7.755ZM8.121,7c1.229-2.841,3.117-4.992,3.879-5.789,.762,.798,2.649,2.95,3.878,5.789h-7.757ZM10.757,1.075c-1.025,1.15-2.668,3.264-3.73,5.925H2.214C3.859,3.795,7.024,1.498,10.757,1.075ZM1.764,8H6.668c-.403,1.247-.668,2.589-.668,4s.265,2.752,.669,4H1.764c-.487-1.242-.764-2.588-.764-4s.277-2.758,.764-4Zm.45,9H7.029c1.067,2.669,2.712,4.781,3.731,5.925-3.734-.421,6.901-2.719-8.546-5.925Zm11.026,5.925c1.019-1.144,2.664-3.257,3.731-5.925h4.814c-1.645,3.206-4.812,5.504-8.546,5.925Zm8.996-6.925h-4.905c.404-1.248,.669-2.589,.669-4s-.265-2.752-.669-4h4.905c.487,1.242,.764,2.588,.764,4s-.277,2.758-.764,4Z"/></svg>' +
+        '<span>' + currentInfo.nativeName + '</span>' +
+        '<svg class="mobile-lang-chevron" width="12" height="12" viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="2 4 6 8 10 4"></polyline></svg>' +
+      '</button>' +
+      '<div class="mobile-lang-options">' + optionsHtml + '</div>';
+    
+    navMenu.appendChild(li);
+    
+    // Match nav link color for visual consistency
+    var firstNavLink = navMenu.querySelector('li:not(.mobile-lang-menu) > a');
+    if (firstNavLink) {
+      var navLinkColor = window.getComputedStyle(firstNavLink).color;
+      if (navLinkColor && navLinkColor !== 'rgba(0, 0, 0, 0)') {
+        li.style.color = navLinkColor;
+        // Update globe SVG fill to match nav link color
+        var globeSvg = li.querySelector('.mobile-lang-toggle > svg:first-child');
+        if (globeSvg) globeSvg.setAttribute('fill', navLinkColor);
+      }
+    }
+    
+    console.log('[i18n] Mobile language submenu created in hamburger menu');
+  }
+  
+  // Wire up mobile language submenu event handlers
+  function initMobileLangSwitcher() {
+    var toggle = document.querySelector('.mobile-lang-toggle');
+    var options = document.querySelector('.mobile-lang-options');
+    if (!toggle || !options) return;
+    
+    var newToggle = toggle.cloneNode(true);
+    toggle.parentNode.replaceChild(newToggle, toggle);
+    var optionsEl = newToggle.parentNode.querySelector('.mobile-lang-options');
+    
+    newToggle.addEventListener('click', function(e) {
+      e.preventDefault();
+      e.stopPropagation();
+      var isOpen = optionsEl.classList.contains('open');
+      if (isOpen) {
+        optionsEl.classList.remove('open');
+        optionsEl.style.display = 'none';
+      } else {
+        optionsEl.classList.add('open');
+        optionsEl.style.display = 'flex';
+      }
+      var chevron = newToggle.querySelector('.mobile-lang-chevron');
+      if (chevron) chevron.style.transform = isOpen ? '' : 'rotate(180deg)';
+    });
+    
+    optionsEl.querySelectorAll('.mobile-lang-option').forEach(function(option) {
+      option.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        var lang = this.getAttribute('data-lang');
+        zappyI18n.changeLanguage(lang);
+        optionsEl.classList.remove('open');
+        optionsEl.style.display = 'none';
+        var chevron = newToggle.querySelector('.mobile-lang-chevron');
+        if (chevron) chevron.style.transform = '';
+        var navMenu = document.getElementById('navMenu') || document.querySelector('.nav-menu');
+        if (navMenu) navMenu.classList.remove('active');
+        var hamburgerIcon = document.querySelector('.hamburger-icon');
+        var closeIcon = document.querySelector('.close-icon');
+        if (hamburgerIcon) hamburgerIcon.style.setProperty('display', 'block', 'important');
+        if (closeIcon) closeIcon.style.setProperty('display', 'none', 'important');
+        document.body.style.overflow = '';
+      });
+    });
+  }
+  
+  // Update mobile language menu after language change
+  function updateMobileLangMenu() {
+    var menuItem = document.querySelector('.mobile-lang-menu');
+    if (!menuItem) {
+      createMobileLangMenu();
+      initMobileLangSwitcher();
+      return;
+    }
+    
+    var currentLang = zappyI18n.language;
+    var currentInfo = languageInfo[currentLang] || { nativeName: currentLang };
+    
+    var toggleSpan = menuItem.querySelector('.mobile-lang-toggle span');
+    if (toggleSpan) toggleSpan.textContent = currentInfo.nativeName;
+    
+    var optionsContainer = menuItem.querySelector('.mobile-lang-options');
+    if (!optionsContainer) return;
+    
+    optionsContainer.innerHTML = availableLanguages
+      .filter(function(lang) { return lang !== currentLang; })
+      .map(function(lang) {
+        var info = languageInfo[lang] || { nativeName: lang, flagImg: '' };
+        return '<button class="mobile-lang-option" data-lang="' + lang + '">' +
+          (info.flagImg || info.flag || '') + ' ' + info.nativeName + '</button>';
+      })
+      .join('');
+    
+    optionsContainer.querySelectorAll('.mobile-lang-option').forEach(function(option) {
+      option.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        var lang = this.getAttribute('data-lang');
+        zappyI18n.changeLanguage(lang);
+        optionsContainer.classList.remove('open');
+        optionsContainer.style.display = 'none';
+        var chevron = menuItem.querySelector('.mobile-lang-chevron');
+        if (chevron) chevron.style.transform = '';
+        var navMenu = document.getElementById('navMenu') || document.querySelector('.nav-menu');
+        if (navMenu) navMenu.classList.remove('active');
+        var hamburgerIcon = document.querySelector('.hamburger-icon');
+        var closeIcon = document.querySelector('.close-icon');
+        if (hamburgerIcon) hamburgerIcon.style.setProperty('display', 'block', 'important');
+        if (closeIcon) closeIcon.style.setProperty('display', 'none', 'important');
+        document.body.style.overflow = '';
+      });
+    });
+    
+    optionsContainer.classList.remove('open');
+    optionsContainer.style.display = 'none';
   }
   
   // Fix mobile menu inline styles that may have been incorrectly persisted
@@ -3869,12 +4244,24 @@
     updateContent();
     updateDirection();
     initLanguageSwitcher();
+    createMobileLangMenu();
+    initMobileLangSwitcher();
     fixMobileMenuStyles();
     fixMobileButtonPositioning();
     fixLanguageSwitcherColor();
     
     // Also fix on resize (in case user rotates device)
     window.addEventListener('resize', function() {
+      if (window.innerWidth > 768) {
+        // Desktop: remove mobile lang menu if it exists
+        var mobileLangEl = document.querySelector('.mobile-lang-menu');
+        if (mobileLangEl) mobileLangEl.remove();
+        var mobileCssEl = document.getElementById('mobile-lang-menu-css');
+        if (mobileCssEl) mobileCssEl.remove();
+      } else {
+        createMobileLangMenu();
+        initMobileLangSwitcher();
+      }
       fixMobileMenuStyles();
       fixMobileButtonPositioning();
       fixLanguageSwitcherColor();
@@ -3945,6 +4332,76 @@
           observer.observe(menu, { attributes: true, attributeFilter: ['class', 'style'] });
         });
       }, 500);
+    })();
+    </script>
+
+    <script id="zappy-mobile-lang-menu-script">
+    (function() {
+      function initMobileLangMenu() {
+        if (window.innerWidth > 768) {
+          var existingMenu = document.querySelector('.mobile-lang-menu');
+          if (existingMenu) existingMenu.remove();
+          return;
+        }
+        if (document.querySelector('.mobile-lang-menu')) return;
+        var switcher = document.querySelector('.lang-switcher');
+        if (!switcher) return;
+        var dropdown = switcher.querySelector('.lang-switcher-dropdown');
+        if (!dropdown) return;
+        var options = dropdown.querySelectorAll('.lang-option');
+        if (options.length === 0) return;
+        var navMenu = document.getElementById('navMenu') || document.querySelector('.nav-menu') || document.querySelector('nav ul');
+        if (!navMenu) return;
+        var currentLang = document.documentElement.lang || 'en';
+        var langConfigs = {
+          he: {name:'עברית',flag:'https://api.iconify.design/circle-flags/il.svg'},
+          en: {name:'English',flag:'https://api.iconify.design/circle-flags/us.svg'},
+          ar: {name:'العربية',flag:'https://api.iconify.design/circle-flags/sa.svg'},
+          fr: {name:'Français',flag:'https://api.iconify.design/circle-flags/fr.svg'},
+          es: {name:'Español',flag:'https://api.iconify.design/circle-flags/es.svg'},
+          de: {name:'Deutsch',flag:'https://api.iconify.design/circle-flags/de.svg'},
+          ru: {name:'Русский',flag:'https://api.iconify.design/circle-flags/ru.svg'},
+          zh: {name:'中文',flag:'https://api.iconify.design/circle-flags/cn.svg'},
+          ja: {name:'日本語',flag:'https://api.iconify.design/circle-flags/jp.svg'},
+          pt: {name:'Português',flag:'https://api.iconify.design/circle-flags/br.svg'},
+          it: {name:'Italiano',flag:'https://api.iconify.design/circle-flags/it.svg'},
+          ko: {name:'한국어',flag:'https://api.iconify.design/circle-flags/kr.svg'}
+        };
+        var container = document.createElement('div');
+        container.className = 'mobile-lang-menu';
+        var currentConfig = langConfigs[currentLang] || {name:currentLang,flag:''};
+        var toggleBtn = document.createElement('button');
+        toggleBtn.className = 'mobile-lang-toggle';
+        toggleBtn.type = 'button';
+        var currentFlagHtml = currentConfig.flag ? '<img src="' + currentConfig.flag + '" width="20" height="20" alt="" style="border-radius:50%;margin-right:8px;margin-left:8px;">' : '';
+        toggleBtn.innerHTML = currentFlagHtml + currentConfig.name;
+        container.appendChild(toggleBtn);
+        var optionsDiv = document.createElement('div');
+        optionsDiv.className = 'mobile-lang-options';
+        var currentLink = document.createElement('a');
+        currentLink.className = 'mobile-lang-option active';
+        currentLink.href = '#';
+        currentLink.innerHTML = currentFlagHtml + currentConfig.name;
+        optionsDiv.appendChild(currentLink);
+        options.forEach(function(opt) {
+          var link = document.createElement('a');
+          link.className = 'mobile-lang-option';
+          link.href = opt.getAttribute('href');
+          link.innerHTML = opt.innerHTML;
+          optionsDiv.appendChild(link);
+        });
+        container.appendChild(optionsDiv);
+        navMenu.appendChild(container);
+        toggleBtn.addEventListener('click', function(e) {
+          e.preventDefault();
+          e.stopPropagation();
+          toggleBtn.classList.toggle('expanded');
+          optionsDiv.classList.toggle('expanded');
+        });
+      }
+      if (document.readyState === 'loading') { document.addEventListener('DOMContentLoaded', initMobileLangMenu); }
+      else { initMobileLangMenu(); }
+      window.addEventListener('resize', function() { clearTimeout(window._mlrt); window._mlrt = setTimeout(initMobileLangMenu, 250); });
     })();
     </script>
     <script src="/script.js"></script>
