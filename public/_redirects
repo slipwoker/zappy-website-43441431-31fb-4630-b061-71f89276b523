@@ -1,5 +1,5 @@
 # Clean URL redirects for Render static hosting
-# Generated: 2026-02-17T07:19:26.164Z
+# Generated: 2026-02-17T07:48:37.660Z
 # NOTE: Render uses render.yaml for routing, not _redirects (that is Netlify)
 # This file is kept for reference only
 
@@ -13,6 +13,13 @@
 /contact  /contact.html  200!
 /bathroom-renovation  /bathroom-renovation.html  200!
 /bathroom-renovation-guide  /bathroom-renovation-guide.html  200!
+/products  /products.html  200!
+/cart  /cart.html  200!
+/checkout  /checkout.html  200!
+/login  /login.html  200!
+/account  /account.html  200!
+/order-success  /order-success.html  200!
+/return-policy  /return-policy.html  200!
 
 # Language slug rewrites for SEO
 /en  /en/index.html  200!
@@ -26,6 +33,13 @@
 /en/contact  /en/contact.html  200!
 /en/bathroom-renovation  /en/bathroom-renovation.html  200!
 /en/bathroom-renovation-guide  /en/bathroom-renovation-guide.html  200!
+/en/products  /en/products.html  200!
+/en/cart  /en/cart.html  200!
+/en/checkout  /en/checkout.html  200!
+/en/login  /en/login.html  200!
+/en/account  /en/account.html  200!
+/en/order-success  /en/order-success.html  200!
+/en/return-policy  /en/return-policy.html  200!
 /en  /en/index.html  200!
 /ru  /ru/index.html  200!
 /ru/gallery  /ru/gallery.html  200!
@@ -38,6 +52,13 @@
 /ru/contact  /ru/contact.html  200!
 /ru/bathroom-renovation  /ru/bathroom-renovation.html  200!
 /ru/bathroom-renovation-guide  /ru/bathroom-renovation-guide.html  200!
+/ru/products  /ru/products.html  200!
+/ru/cart  /ru/cart.html  200!
+/ru/checkout  /ru/checkout.html  200!
+/ru/login  /ru/login.html  200!
+/ru/account  /ru/account.html  200!
+/ru/order-success  /ru/order-success.html  200!
+/ru/return-policy  /ru/return-policy.html  200!
 /ru  /ru/index.html  200!
 /ar  /ar/index.html  200!
 /ar/gallery  /ar/gallery.html  200!
@@ -50,6 +71,13 @@
 /ar/contact  /ar/contact.html  200!
 /ar/bathroom-renovation  /ar/bathroom-renovation.html  200!
 /ar/bathroom-renovation-guide  /ar/bathroom-renovation-guide.html  200!
+/ar/products  /ar/products.html  200!
+/ar/cart  /ar/cart.html  200!
+/ar/checkout  /ar/checkout.html  200!
+/ar/login  /ar/login.html  200!
+/ar/account  /ar/account.html  200!
+/ar/order-success  /ar/order-success.html  200!
+/ar/return-policy  /ar/return-policy.html  200!
 /ar  /ar/index.html  200!
 
 # Legal pages - redirect old .html URLs to friendly URLs
@@ -59,5 +87,6 @@
 
 /  /index.html  200!
 
-# SPA fallback - serve index.html for all unmatched routes
-/*  /index.html  200
+# Dynamic routes - serve dedicated HTML templates for dynamic paths
+/product/*  /product.html  200!
+/category/*  /category.html  200!
