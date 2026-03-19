@@ -7333,6 +7333,12 @@ html[dir="rtl"] body{overflow-x: clip !important;max-width: 100vw !important;}
 
 
 
+/* RTL nav-cta-container margin fix — pushes CTA to far left in RTL flex layout */
+.nav-cta-container,
+html[lang="he"] .nav-cta-container,
+html[lang="ar"] .nav-cta-container{margin-right: auto !important;margin-left: 0 !important;}
+
+
 /* ========== RTL MOBILE NAVBAR FIX (zappy-rtl-mobile-fix) ========== */
 /* High-specificity rules to ensure RTL positioning wins over any [lang="en"] conflicts */
 /* For RTL sites: hamburger on RIGHT, phone on LEFT (mirror of LTR layout) */

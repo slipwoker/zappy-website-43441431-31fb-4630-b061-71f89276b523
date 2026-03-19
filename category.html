@@ -1300,6 +1300,15 @@ html[dir="rtl"] body {
 }
 
 </style>
+<style>
+/* RTL nav-cta-container margin fix — pushes CTA to far left in RTL flex layout */
+html[dir="rtl"] .nav-cta-container,
+html[lang="he"] .nav-cta-container,
+html[lang="ar"] .nav-cta-container {
+  margin-right: auto !important;
+  margin-left: 0 !important;
+}
+</style>
     <link rel="stylesheet" href="/styles.css">
 
     <style id="mobile-lang-menu-deployed-css">
