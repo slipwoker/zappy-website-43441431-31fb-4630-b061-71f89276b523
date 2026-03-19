@@ -36,30 +36,6 @@ https://shiputzim-pro.co.il/bathroom-renovation
 https://shiputzim-pro.co.il/bathroom-renovation-guide
 המדריך המלא לתכנון וביצוע שיפוץ חדרי אמבטיה. כל מה שצריך לדעת על שלבי העבודה, בחירת קבלן שיפוצים אמין, עלויות ועיצוב החדר החדש שלכם.
 
-### Products
-https://shiputzim-pro.co.il/products
-המוצרים שלנו - שיפוצים פלוס (שיפוצים 2000)
-
-### Cart
-https://shiputzim-pro.co.il/cart
-עגלת הקניות שלך
-
-### Checkout
-https://shiputzim-pro.co.il/checkout
-תשלום
-
-### Login
-https://shiputzim-pro.co.il/login
-התחברות לקוחות
-
-### Account
-https://shiputzim-pro.co.il/account
-החשבון שלי
-
-### Order Success
-https://shiputzim-pro.co.il/order-success
-תודה על ההזמנה
-
 ### Product Detail
 https://shiputzim-pro.co.il/product/:slug
 פרטי המוצר - שיפוצים פלוס (שיפוצים 2000)
