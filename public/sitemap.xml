@@ -1,576 +1,81 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
-        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://shiputzim-pro.co.il</loc>
     <lastmod>2026-03-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://shiputzim-pro.co.il" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://shiputzim-pro.co.il/en" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://shiputzim-pro.co.il/ru" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shiputzim-pro.co.il/ar" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shiputzim-pro.co.il" />
-  </url>
-  <url>
-    <loc>https://shiputzim-pro.co.il/en</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://shiputzim-pro.co.il" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://shiputzim-pro.co.il/en" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://shiputzim-pro.co.il/ru" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shiputzim-pro.co.il/ar" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shiputzim-pro.co.il" />
-  </url>
-  <url>
-    <loc>https://shiputzim-pro.co.il/ru</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://shiputzim-pro.co.il" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://shiputzim-pro.co.il/en" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://shiputzim-pro.co.il/ru" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shiputzim-pro.co.il/ar" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shiputzim-pro.co.il" />
-  </url>
-  <url>
-    <loc>https://shiputzim-pro.co.il/ar</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>1.0</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://shiputzim-pro.co.il" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://shiputzim-pro.co.il/en" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://shiputzim-pro.co.il/ru" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shiputzim-pro.co.il/ar" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shiputzim-pro.co.il" />
   </url>
   <url>
     <loc>https://shiputzim-pro.co.il/gallery</loc>
     <lastmod>2026-03-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://shiputzim-pro.co.il/gallery" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://shiputzim-pro.co.il/en/gallery" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://shiputzim-pro.co.il/ru/gallery" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shiputzim-pro.co.il/ar/gallery" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shiputzim-pro.co.il/gallery" />
-  </url>
-  <url>
-    <loc>https://shiputzim-pro.co.il/en/gallery</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://shiputzim-pro.co.il/gallery" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://shiputzim-pro.co.il/en/gallery" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://shiputzim-pro.co.il/ru/gallery" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shiputzim-pro.co.il/ar/gallery" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shiputzim-pro.co.il/gallery" />
-  </url>
-  <url>
-    <loc>https://shiputzim-pro.co.il/ru/gallery</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://shiputzim-pro.co.il/gallery" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://shiputzim-pro.co.il/en/gallery" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://shiputzim-pro.co.il/ru/gallery" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shiputzim-pro.co.il/ar/gallery" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shiputzim-pro.co.il/gallery" />
-  </url>
-  <url>
-    <loc>https://shiputzim-pro.co.il/ar/gallery</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://shiputzim-pro.co.il/gallery" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://shiputzim-pro.co.il/en/gallery" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://shiputzim-pro.co.il/ru/gallery" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shiputzim-pro.co.il/ar/gallery" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shiputzim-pro.co.il/gallery" />
   </url>
   <url>
     <loc>https://shiputzim-pro.co.il/services</loc>
     <lastmod>2026-03-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://shiputzim-pro.co.il/services" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://shiputzim-pro.co.il/en/services" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://shiputzim-pro.co.il/ru/services" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shiputzim-pro.co.il/ar/services" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shiputzim-pro.co.il/services" />
-  </url>
-  <url>
-    <loc>https://shiputzim-pro.co.il/en/services</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://shiputzim-pro.co.il/services" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://shiputzim-pro.co.il/en/services" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://shiputzim-pro.co.il/ru/services" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shiputzim-pro.co.il/ar/services" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shiputzim-pro.co.il/services" />
-  </url>
-  <url>
-    <loc>https://shiputzim-pro.co.il/ru/services</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://shiputzim-pro.co.il/services" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://shiputzim-pro.co.il/en/services" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://shiputzim-pro.co.il/ru/services" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shiputzim-pro.co.il/ar/services" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shiputzim-pro.co.il/services" />
-  </url>
-  <url>
-    <loc>https://shiputzim-pro.co.il/ar/services</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://shiputzim-pro.co.il/services" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://shiputzim-pro.co.il/en/services" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://shiputzim-pro.co.il/ru/services" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shiputzim-pro.co.il/ar/services" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shiputzim-pro.co.il/services" />
   </url>
   <url>
     <loc>https://shiputzim-pro.co.il/about</loc>
     <lastmod>2026-03-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://shiputzim-pro.co.il/about" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://shiputzim-pro.co.il/en/about" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://shiputzim-pro.co.il/ru/about" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shiputzim-pro.co.il/ar/about" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shiputzim-pro.co.il/about" />
-  </url>
-  <url>
-    <loc>https://shiputzim-pro.co.il/en/about</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://shiputzim-pro.co.il/about" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://shiputzim-pro.co.il/en/about" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://shiputzim-pro.co.il/ru/about" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shiputzim-pro.co.il/ar/about" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shiputzim-pro.co.il/about" />
-  </url>
-  <url>
-    <loc>https://shiputzim-pro.co.il/ru/about</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://shiputzim-pro.co.il/about" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://shiputzim-pro.co.il/en/about" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://shiputzim-pro.co.il/ru/about" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shiputzim-pro.co.il/ar/about" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shiputzim-pro.co.il/about" />
-  </url>
-  <url>
-    <loc>https://shiputzim-pro.co.il/ar/about</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://shiputzim-pro.co.il/about" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://shiputzim-pro.co.il/en/about" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://shiputzim-pro.co.il/ru/about" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shiputzim-pro.co.il/ar/about" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shiputzim-pro.co.il/about" />
   </url>
   <url>
     <loc>https://shiputzim-pro.co.il/our-work</loc>
     <lastmod>2026-03-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://shiputzim-pro.co.il/our-work" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://shiputzim-pro.co.il/en/our-work" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://shiputzim-pro.co.il/ru/our-work" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shiputzim-pro.co.il/ar/our-work" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shiputzim-pro.co.il/our-work" />
-  </url>
-  <url>
-    <loc>https://shiputzim-pro.co.il/en/our-work</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://shiputzim-pro.co.il/our-work" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://shiputzim-pro.co.il/en/our-work" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://shiputzim-pro.co.il/ru/our-work" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shiputzim-pro.co.il/ar/our-work" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shiputzim-pro.co.il/our-work" />
-  </url>
-  <url>
-    <loc>https://shiputzim-pro.co.il/ru/our-work</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://shiputzim-pro.co.il/our-work" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://shiputzim-pro.co.il/en/our-work" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://shiputzim-pro.co.il/ru/our-work" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shiputzim-pro.co.il/ar/our-work" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shiputzim-pro.co.il/our-work" />
-  </url>
-  <url>
-    <loc>https://shiputzim-pro.co.il/ar/our-work</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://shiputzim-pro.co.il/our-work" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://shiputzim-pro.co.il/en/our-work" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://shiputzim-pro.co.il/ru/our-work" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shiputzim-pro.co.il/ar/our-work" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shiputzim-pro.co.il/our-work" />
   </url>
   <url>
     <loc>https://shiputzim-pro.co.il/contact</loc>
     <lastmod>2026-03-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://shiputzim-pro.co.il/contact" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://shiputzim-pro.co.il/en/contact" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://shiputzim-pro.co.il/ru/contact" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shiputzim-pro.co.il/ar/contact" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shiputzim-pro.co.il/contact" />
-  </url>
-  <url>
-    <loc>https://shiputzim-pro.co.il/en/contact</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://shiputzim-pro.co.il/contact" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://shiputzim-pro.co.il/en/contact" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://shiputzim-pro.co.il/ru/contact" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shiputzim-pro.co.il/ar/contact" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shiputzim-pro.co.il/contact" />
-  </url>
-  <url>
-    <loc>https://shiputzim-pro.co.il/ru/contact</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://shiputzim-pro.co.il/contact" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://shiputzim-pro.co.il/en/contact" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://shiputzim-pro.co.il/ru/contact" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shiputzim-pro.co.il/ar/contact" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shiputzim-pro.co.il/contact" />
-  </url>
-  <url>
-    <loc>https://shiputzim-pro.co.il/ar/contact</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://shiputzim-pro.co.il/contact" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://shiputzim-pro.co.il/en/contact" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://shiputzim-pro.co.il/ru/contact" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shiputzim-pro.co.il/ar/contact" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shiputzim-pro.co.il/contact" />
   </url>
   <url>
     <loc>https://shiputzim-pro.co.il/bathroom-renovation</loc>
     <lastmod>2026-03-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://shiputzim-pro.co.il/bathroom-renovation" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://shiputzim-pro.co.il/en/bathroom-renovation" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://shiputzim-pro.co.il/ru/bathroom-renovation" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shiputzim-pro.co.il/ar/bathroom-renovation" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shiputzim-pro.co.il/bathroom-renovation" />
-  </url>
-  <url>
-    <loc>https://shiputzim-pro.co.il/en/bathroom-renovation</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://shiputzim-pro.co.il/bathroom-renovation" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://shiputzim-pro.co.il/en/bathroom-renovation" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://shiputzim-pro.co.il/ru/bathroom-renovation" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shiputzim-pro.co.il/ar/bathroom-renovation" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shiputzim-pro.co.il/bathroom-renovation" />
-  </url>
-  <url>
-    <loc>https://shiputzim-pro.co.il/ru/bathroom-renovation</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://shiputzim-pro.co.il/bathroom-renovation" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://shiputzim-pro.co.il/en/bathroom-renovation" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://shiputzim-pro.co.il/ru/bathroom-renovation" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shiputzim-pro.co.il/ar/bathroom-renovation" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shiputzim-pro.co.il/bathroom-renovation" />
-  </url>
-  <url>
-    <loc>https://shiputzim-pro.co.il/ar/bathroom-renovation</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://shiputzim-pro.co.il/bathroom-renovation" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://shiputzim-pro.co.il/en/bathroom-renovation" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://shiputzim-pro.co.il/ru/bathroom-renovation" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shiputzim-pro.co.il/ar/bathroom-renovation" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shiputzim-pro.co.il/bathroom-renovation" />
   </url>
   <url>
     <loc>https://shiputzim-pro.co.il/bathroom-renovation-guide</loc>
     <lastmod>2026-03-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://shiputzim-pro.co.il/bathroom-renovation-guide" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://shiputzim-pro.co.il/en/bathroom-renovation-guide" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://shiputzim-pro.co.il/ru/bathroom-renovation-guide" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shiputzim-pro.co.il/ar/bathroom-renovation-guide" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shiputzim-pro.co.il/bathroom-renovation-guide" />
-  </url>
-  <url>
-    <loc>https://shiputzim-pro.co.il/en/bathroom-renovation-guide</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://shiputzim-pro.co.il/bathroom-renovation-guide" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://shiputzim-pro.co.il/en/bathroom-renovation-guide" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://shiputzim-pro.co.il/ru/bathroom-renovation-guide" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shiputzim-pro.co.il/ar/bathroom-renovation-guide" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shiputzim-pro.co.il/bathroom-renovation-guide" />
-  </url>
-  <url>
-    <loc>https://shiputzim-pro.co.il/ru/bathroom-renovation-guide</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://shiputzim-pro.co.il/bathroom-renovation-guide" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://shiputzim-pro.co.il/en/bathroom-renovation-guide" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://shiputzim-pro.co.il/ru/bathroom-renovation-guide" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shiputzim-pro.co.il/ar/bathroom-renovation-guide" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shiputzim-pro.co.il/bathroom-renovation-guide" />
-  </url>
-  <url>
-    <loc>https://shiputzim-pro.co.il/ar/bathroom-renovation-guide</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://shiputzim-pro.co.il/bathroom-renovation-guide" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://shiputzim-pro.co.il/en/bathroom-renovation-guide" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://shiputzim-pro.co.il/ru/bathroom-renovation-guide" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shiputzim-pro.co.il/ar/bathroom-renovation-guide" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shiputzim-pro.co.il/bathroom-renovation-guide" />
   </url>
   <url>
     <loc>https://shiputzim-pro.co.il/product/:slug</loc>
     <lastmod>2026-03-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://shiputzim-pro.co.il/product/:slug" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://shiputzim-pro.co.il/en/product/:slug" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://shiputzim-pro.co.il/ru/product/:slug" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shiputzim-pro.co.il/ar/product/:slug" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shiputzim-pro.co.il/product/:slug" />
-  </url>
-  <url>
-    <loc>https://shiputzim-pro.co.il/en/product/:slug</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://shiputzim-pro.co.il/product/:slug" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://shiputzim-pro.co.il/en/product/:slug" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://shiputzim-pro.co.il/ru/product/:slug" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shiputzim-pro.co.il/ar/product/:slug" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shiputzim-pro.co.il/product/:slug" />
-  </url>
-  <url>
-    <loc>https://shiputzim-pro.co.il/ru/product/:slug</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://shiputzim-pro.co.il/product/:slug" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://shiputzim-pro.co.il/en/product/:slug" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://shiputzim-pro.co.il/ru/product/:slug" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shiputzim-pro.co.il/ar/product/:slug" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shiputzim-pro.co.il/product/:slug" />
-  </url>
-  <url>
-    <loc>https://shiputzim-pro.co.il/ar/product/:slug</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://shiputzim-pro.co.il/product/:slug" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://shiputzim-pro.co.il/en/product/:slug" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://shiputzim-pro.co.il/ru/product/:slug" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shiputzim-pro.co.il/ar/product/:slug" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shiputzim-pro.co.il/product/:slug" />
   </url>
   <url>
     <loc>https://shiputzim-pro.co.il/category/:slug</loc>
     <lastmod>2026-03-19</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://shiputzim-pro.co.il/category/:slug" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://shiputzim-pro.co.il/en/category/:slug" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://shiputzim-pro.co.il/ru/category/:slug" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shiputzim-pro.co.il/ar/category/:slug" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shiputzim-pro.co.il/category/:slug" />
-  </url>
-  <url>
-    <loc>https://shiputzim-pro.co.il/en/category/:slug</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://shiputzim-pro.co.il/category/:slug" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://shiputzim-pro.co.il/en/category/:slug" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://shiputzim-pro.co.il/ru/category/:slug" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shiputzim-pro.co.il/ar/category/:slug" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shiputzim-pro.co.il/category/:slug" />
-  </url>
-  <url>
-    <loc>https://shiputzim-pro.co.il/ru/category/:slug</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://shiputzim-pro.co.il/category/:slug" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://shiputzim-pro.co.il/en/category/:slug" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://shiputzim-pro.co.il/ru/category/:slug" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shiputzim-pro.co.il/ar/category/:slug" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shiputzim-pro.co.il/category/:slug" />
-  </url>
-  <url>
-    <loc>https://shiputzim-pro.co.il/ar/category/:slug</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://shiputzim-pro.co.il/category/:slug" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://shiputzim-pro.co.il/en/category/:slug" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://shiputzim-pro.co.il/ru/category/:slug" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shiputzim-pro.co.il/ar/category/:slug" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shiputzim-pro.co.il/category/:slug" />
   </url>
   <url>
     <loc>https://shiputzim-pro.co.il/privacy</loc>
     <lastmod>2026-03-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://shiputzim-pro.co.il/privacy" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://shiputzim-pro.co.il/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://shiputzim-pro.co.il/ru/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shiputzim-pro.co.il/ar/privacy" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shiputzim-pro.co.il/privacy" />
-  </url>
-  <url>
-    <loc>https://shiputzim-pro.co.il/en/privacy</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://shiputzim-pro.co.il/privacy" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://shiputzim-pro.co.il/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://shiputzim-pro.co.il/ru/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shiputzim-pro.co.il/ar/privacy" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shiputzim-pro.co.il/privacy" />
-  </url>
-  <url>
-    <loc>https://shiputzim-pro.co.il/ru/privacy</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://shiputzim-pro.co.il/privacy" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://shiputzim-pro.co.il/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://shiputzim-pro.co.il/ru/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shiputzim-pro.co.il/ar/privacy" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shiputzim-pro.co.il/privacy" />
-  </url>
-  <url>
-    <loc>https://shiputzim-pro.co.il/ar/privacy</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://shiputzim-pro.co.il/privacy" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://shiputzim-pro.co.il/en/privacy" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://shiputzim-pro.co.il/ru/privacy" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shiputzim-pro.co.il/ar/privacy" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shiputzim-pro.co.il/privacy" />
   </url>
   <url>
     <loc>https://shiputzim-pro.co.il/terms</loc>
     <lastmod>2026-03-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://shiputzim-pro.co.il/terms" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://shiputzim-pro.co.il/en/terms" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://shiputzim-pro.co.il/ru/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shiputzim-pro.co.il/ar/terms" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shiputzim-pro.co.il/terms" />
-  </url>
-  <url>
-    <loc>https://shiputzim-pro.co.il/en/terms</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://shiputzim-pro.co.il/terms" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://shiputzim-pro.co.il/en/terms" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://shiputzim-pro.co.il/ru/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shiputzim-pro.co.il/ar/terms" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shiputzim-pro.co.il/terms" />
-  </url>
-  <url>
-    <loc>https://shiputzim-pro.co.il/ru/terms</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://shiputzim-pro.co.il/terms" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://shiputzim-pro.co.il/en/terms" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://shiputzim-pro.co.il/ru/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shiputzim-pro.co.il/ar/terms" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shiputzim-pro.co.il/terms" />
-  </url>
-  <url>
-    <loc>https://shiputzim-pro.co.il/ar/terms</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://shiputzim-pro.co.il/terms" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://shiputzim-pro.co.il/en/terms" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://shiputzim-pro.co.il/ru/terms" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shiputzim-pro.co.il/ar/terms" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shiputzim-pro.co.il/terms" />
   </url>
   <url>
     <loc>https://shiputzim-pro.co.il/accessibility</loc>
     <lastmod>2026-03-19</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.5</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://shiputzim-pro.co.il/accessibility" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://shiputzim-pro.co.il/en/accessibility" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://shiputzim-pro.co.il/ru/accessibility" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shiputzim-pro.co.il/ar/accessibility" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shiputzim-pro.co.il/accessibility" />
-  </url>
-  <url>
-    <loc>https://shiputzim-pro.co.il/en/accessibility</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://shiputzim-pro.co.il/accessibility" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://shiputzim-pro.co.il/en/accessibility" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://shiputzim-pro.co.il/ru/accessibility" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shiputzim-pro.co.il/ar/accessibility" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shiputzim-pro.co.il/accessibility" />
-  </url>
-  <url>
-    <loc>https://shiputzim-pro.co.il/ru/accessibility</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://shiputzim-pro.co.il/accessibility" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://shiputzim-pro.co.il/en/accessibility" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://shiputzim-pro.co.il/ru/accessibility" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shiputzim-pro.co.il/ar/accessibility" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shiputzim-pro.co.il/accessibility" />
-  </url>
-  <url>
-    <loc>https://shiputzim-pro.co.il/ar/accessibility</loc>
-    <lastmod>2026-03-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.5</priority>
-    <xhtml:link rel="alternate" hreflang="he" href="https://shiputzim-pro.co.il/accessibility" />
-    <xhtml:link rel="alternate" hreflang="en" href="https://shiputzim-pro.co.il/en/accessibility" />
-    <xhtml:link rel="alternate" hreflang="ru" href="https://shiputzim-pro.co.il/ru/accessibility" />
-    <xhtml:link rel="alternate" hreflang="ar" href="https://shiputzim-pro.co.il/ar/accessibility" />
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://shiputzim-pro.co.il/accessibility" />
   </url>
 </urlset>
