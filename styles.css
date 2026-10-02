@@ -2403,6 +2403,30 @@ html[lang="ar"] .nav-cta-container{margin-right: auto !important;margin-left: 0 
 /* === BUTTON TEXT OVERRIDES END === */
 
 
+.service-section .service-detail-content p {
+  color: var(--text-color, var(--text, var(--text-dark, #1a1a1a))) !important;
+}
+
+.service-section .service-detail-content h2 {
+  color: var(--text-color, var(--text, var(--text-dark, #1a1a1a))) !important;
+}
+
+.hcm-header h2, .hcm-header .hcm-eyebrow, #שירותי-ניקיון-ואחזקה .hcm-service-text h3 {
+  color: var(--text-color, var(--text, var(--text-dark, #1a1a1a))) !important;
+}
+
+#שירותי-ניקיון-ואחזקה .hcm-service-text p {
+  color: var(--text-color, var(--text, var(--text-dark, #1a1a1a))) !important;
+}
+
+.hcm-header .hcm-subtitle, #שירותי-ניקיון-ואחזקה .hcm-intro p {
+  color: var(--text-color, var(--text, var(--text-dark, #1a1a1a))) !important;
+}
+
+.pricing-info h2, .pricing-info p {
+  color: var(--text-color, var(--text, var(--text-dark, #1a1a1a))) !important;
+}
+
 /* ZAPPY_ANNOUNCEMENT_HEADER_OFFSET_CSS_V3 */
 :root {
   --zappy-header-stack-height: calc(var(--zappy-announcement-height, 40px) + var(--header-height, 72px));
