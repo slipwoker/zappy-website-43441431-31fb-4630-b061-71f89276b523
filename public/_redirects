@@ -1,5 +1,5 @@
 # Clean URL redirects for Render static hosting
-# Generated: 2026-10-02T06:41:43.365Z
+# Generated: 2026-10-02T06:43:50.511Z
 # NOTE: Render uses render.yaml for routing, not _redirects (that is Netlify)
 # This file is kept for reference only
 
@@ -14,6 +14,7 @@
 /bathroom-renovation-guide  /bathroom-renovation-guide.html  200!
 /menu-group-1790921614621  /menu-group-1790921614621.html  200!
 /contact  /contact.html  200!
+/cleaning-and-maintenance-services  /cleaning-and-maintenance-services.html  200!
 
 # Language slug rewrites for SEO
 /en  /en/index.html  200!
@@ -27,6 +28,7 @@
 /en/bathroom-renovation  /en/bathroom-renovation.html  200!
 /en/bathroom-renovation-guide  /en/bathroom-renovation-guide.html  200!
 /en/contact  /en/contact.html  200!
+/en/cleaning-and-maintenance-services  /en/cleaning-and-maintenance-services.html  200!
 /en  /en/index.html  200!
 /ru  /ru/index.html  200!
 /ru/gallery  /ru/gallery.html  200!
@@ -39,6 +41,7 @@
 /ru/bathroom-renovation  /ru/bathroom-renovation.html  200!
 /ru/bathroom-renovation-guide  /ru/bathroom-renovation-guide.html  200!
 /ru/contact  /ru/contact.html  200!
+/ru/cleaning-and-maintenance-services  /ru/cleaning-and-maintenance-services.html  200!
 /ru  /ru/index.html  200!
 /ar  /ar/index.html  200!
 /ar/gallery  /ar/gallery.html  200!
@@ -51,6 +54,7 @@
 /ar/bathroom-renovation  /ar/bathroom-renovation.html  200!
 /ar/bathroom-renovation-guide  /ar/bathroom-renovation-guide.html  200!
 /ar/contact  /ar/contact.html  200!
+/ar/cleaning-and-maintenance-services  /ar/cleaning-and-maintenance-services.html  200!
 /ar  /ar/index.html  200!
 
 # Legal pages - redirect old .html URLs to friendly URLs
