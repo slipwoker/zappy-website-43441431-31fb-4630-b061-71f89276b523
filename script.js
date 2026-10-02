@@ -94,8 +94,7 @@ document.addEventListener('DOMContentLoaded', function() {
   const phoneHeaderBtn = document.querySelector('.phone-header-btn');
   if (phoneHeaderBtn) {
     phoneHeaderBtn.addEventListener('click', function() {
-      const phoneNumber = '+972506767646';
-      window.location.href = 'tel:' + phoneNumber;
+      var e=document.querySelectorAll('a[href^="tel:"]');var n=e.length>0?e[0].getAttribute("href").replace("tel:",""):"+972506767646";window.location.href="tel:"+n
     });
   }
   
