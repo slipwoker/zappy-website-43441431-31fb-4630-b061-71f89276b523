@@ -1,4 +1,6 @@
-# Business — Generative Engine Optimization Map
+# הראל פרו - שיפוצים, אחזקה, וניקיון — Generative Engine Optimization Map
+
+> A בנייה ושיפוצים business.
 
 ---
 
@@ -60,12 +62,42 @@ Information about WCAG compliance and accessibility features.
 
 ---
 
-# Business Context (for LLM understanding)
+## How to Contact Us
 
-## About Business
+- Email: evgiharel@gmail.com
+- Phone: +972506767646
+- Phone (tel): tel:+972506767646
+- Address: דוד סחרוב 17, ראשון לציון
+
+### Contact form
+- URL: https://shiputzim-pro.co.il/contact
+- Endpoint: https://shiputzim-pro.co.il/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `name` (text, required)
+  - `email` (email, required)
+  - `phone` (tel, required)
+  - `service` (select)
+  - `message` (textarea)
+
 ---
 
-# Additional Resources
+# Business Context (for LLM understanding)
 
-- **Sitemap**: https://shiputzim-pro.co.il/sitemap.xml
-- **Robots.txt**: https://shiputzim-pro.co.il/robots.txt
+## About הראל פרו - שיפוצים, אחזקה, וניקיון
+הראל פרו - שיפוצים, אחזקה, וניקיון is a business in the בנייה ושיפוצים industry.
+
+## Target Audience
+מגזר פרטי, עסקי ומוסדי
+
+## Industry
+בנייה ושיפוצים
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://shiputzim-pro.co.il/sitemap.xml
+- Robots: https://shiputzim-pro.co.il/robots.txt
+- Flattened page text (for LLMs): https://shiputzim-pro.co.il/llms-full.txt
