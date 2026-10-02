@@ -708,9 +708,9 @@
       "accessibility_text_48_0": "אימייל: ",
       "terms_text_52_0": "אימייל: ",
       "our_text_14_0": "Happily created by ",
-      "contact_text_14_0": "Happily created by ",
       "bathroom_text_17_0": "Happily created by ",
-      "bathroom_text_15_0": "Happily created by "
+      "bathroom_text_15_0": "Happily created by ",
+      "contact_text_14_0": "Happily created by "
     }
   },
   "en": {
@@ -1422,9 +1422,9 @@
       "accessibility_text_48_0": "Email: ",
       "terms_text_52_0": "Email: ",
       "our_text_14_0": "Happily created by ",
-      "contact_text_14_0": "Happily created by ",
       "bathroom_text_17_0": "Happily created by ",
-      "bathroom_text_15_0": "Happily created by "
+      "bathroom_text_15_0": "Happily created by ",
+      "contact_text_14_0": "Happily created by "
     }
   },
   "ru": {
@@ -2136,9 +2136,9 @@
       "accessibility_text_48_0": "Email: ",
       "terms_text_52_0": "Email: ",
       "our_text_14_0": "С радостью создано ",
-      "contact_text_14_0": "Happily created by ",
       "bathroom_text_17_0": "Happily created by ",
-      "bathroom_text_15_0": "Happily created by "
+      "bathroom_text_15_0": "Happily created by ",
+      "contact_text_14_0": "Happily created by "
     }
   },
   "ar": {
@@ -2850,9 +2850,9 @@
       "accessibility_text_48_0": "البريد الإلكتروني: ",
       "terms_text_52_0": "البريد الإلكتروني: ",
       "our_text_14_0": "تم الإنشاء بسعادة بواسطة ",
-      "contact_text_14_0": "Happily created by ",
       "bathroom_text_17_0": "Happily created by ",
-      "bathroom_text_15_0": "Happily created by "
+      "bathroom_text_15_0": "Happily created by ",
+      "contact_text_14_0": "Happily created by "
     }
   }
 }
