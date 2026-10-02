@@ -42,9 +42,6 @@ https://shiputzim-pro.co.il/product/:slug
 https://shiputzim-pro.co.il/category/:slug
 מוצרים - שיפוצים פלוס (שיפוצים 2000)
 
-### Page
-https://shiputzim-pro.co.il/menu-group-1790921614621
-
 ### צור קשר - קבל הצעת מחיר חינם — שיפוצים 2000
 https://shiputzim-pro.co.il/contact
 צור קשר עם שיפוצים 2000 - קבלן שיפוצים אמין בישראל. קבל הצעת מחיר חינם לשיפוץ חדרי אמבטיה ושיפוצים מקצועיים. נשמח לעמוד לשירותך.
